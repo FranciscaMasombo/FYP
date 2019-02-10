@@ -6,4 +6,11 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="scanner">SCANNER</string>
+    <string name="notes">NOTES</string>
+    <string name="todo_list">ToDo LIST</string>
+    <string name="planner">PLANNER</string>
+    <string name="flashcards">FLASHCARDS</string>
+    <string name="focus">FOCUS</string>
+    <string name="todo">TODO</string>
 </resources>
