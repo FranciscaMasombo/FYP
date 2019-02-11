@@ -17,4 +17,41 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="ThemeFocusOn" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/RED</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/RED</item>
+        <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="ThemePlanner" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/orange_dark</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+
+    <style name="ThemeNote" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lime</item>
+        <item name="colorPrimaryDark">@color/lime_dark</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+
+    <style name="ThemeFlashCards" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue_dark</item>
+        <item name="colorAccent">@color/blue</item>
+    </style>
+
+    <style name="ThemeToDo" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/darkblue</item>
+        <item name="colorPrimaryDark">@color/darkblue_dark</item>
+        <item name="colorAccent">@color/darkblue</item>
+    </style>
+
+    <style name="ThemeScanner" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/pink_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
 </resources>
