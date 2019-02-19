@@ -1,38 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ie.fran.fyp">
+    package="ie.fran.fyp"
+    android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
 
     <application
         android:allowBackup="true"
+        android:name=".services.ServiceStarterApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/StudyAid"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
         <activity
             android:name=".ToDo_Activity"
-            android:theme="@style/ThemeToDo">
-        </activity>
-        <activity android:name=".Note_Activity"
-              android:theme="@style/ThemeNote">
-        </activity>
-        <activity android:name=".Scanner_Activity"
-               android:theme="@style/ThemeScanner">
-        </activity>
-        <activity android:name=".Planner_Activity"
-            android:theme="@style/ThemePlanner">
-        </activity>
-        <activity android:name=".Flashcard_Activity"
-            android:theme="@style/ThemeFlashCards">
+            android:theme="@style/ThemeToDo"></activity>
+        <activity
+            android:name=".Note_Activity"
+            android:theme="@style/ThemeNote"></activity>
+        <activity
+            android:name=".Scanner_Activity"
+            android:theme="@style/ThemeScanner"></activity>
+        <activity
+            android:name=".Planner_Activity"
+            android:theme="@style/ThemePlanner"></activity>
+        <activity
+            android:name=".Flashcard_Activity"
+            android:theme="@style/ThemeFlashCards"></activity>
+        <activity
+            android:name=".Focus_On_Activity"
+            android:theme="@style/ThemeFocusOn">
 
         </activity>
-        <activity android:name=".Focus_On_Activity"
-            android:theme="@style/ThemeFocusOn">
-        </activity>
+        <service
+            android:enabled="true"
+            android:name=".services.AppBlockerService"
+            android:process=":AppBlockerService"
+            android:stopWithTask="false" />
+        <receiver android:name=".services.PhoneBootReciever">
+        <intent-filter>
+            <action android:name="android.intent.action.BOOT_COMPLETED"/>
+        </intent-filter>
+        </receiver>
         <activity
             android:name=".MainActivity"
             android:label="StudyAid"
@@ -43,7 +58,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

@@ -14,4 +14,5 @@
     <string name="focus">FOCUS</string>
     <string name="todo">TODO</string>
     <string name="StudyAid">StudyAid</string>
+    <string name="title_activity_to_do_list_">To_do_list_Activity</string>
 </resources>
