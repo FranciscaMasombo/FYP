@@ -1,4 +1,4 @@
-package ie.fran.fyp.domain;
+package ie.fran.fyp.Focus_On;
 
 import android.graphics.drawable.Drawable;
 

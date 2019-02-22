@@ -1,6 +1,7 @@
-package ie.fran.fyp.domain;
+package ie.fran.fyp.Focus_On;
 
 import android.content.Context;
+import android.content.pm.ApplicationInfo;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
@@ -11,7 +12,6 @@ import android.widget.ImageView;
 import java.util.List;
 
 import ie.fran.fyp.R;
-import ie.fran.fyp.persistence.AppDatabase ;
 
 public class ApplicationListAdapter extends RecyclerView.Adapter<ApplicationListAdapter.ItemHolder> {
 
@@ -24,17 +24,17 @@ public class ApplicationListAdapter extends RecyclerView.Adapter<ApplicationList
         this.appList = appList;
     }
 
+
+
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.card_view, parent, false);
-
         return new ItemHolder(itemView);
     }
 
     @Override
     public void onBindViewHolder(final ItemHolder holder, int position) {
-        //TODO reafactor database queries
         final ApplicationItem app = appList.get(position);
         final AppDatabase database = AppDatabase.getAppDatabase(this.mContext);
         holder.appSwitch.setText(app.getName());
@@ -44,9 +44,9 @@ public class ApplicationListAdapter extends RecyclerView.Adapter<ApplicationList
             public void onClick(View v) {
                 SwitchCompat s = (SwitchCompat) v;
                 if(s.isChecked())
-                    database.applicationNameDao().insert(new ApplicationDetails(s.getText().toString(), app.getPackageName()));
+                    database.NameDao().insert(new ApplicationDetails(s.getText().toString(), app.getPackageName()));
                 else
-                    database.applicationNameDao().delete(new ApplicationDetails(s.getText().toString()));
+                    database.NameDao().delete(new ApplicationDetails(s.getText().toString()));
                 app.setSelected(s.isChecked());
             }
         });
@@ -67,5 +67,9 @@ public class ApplicationListAdapter extends RecyclerView.Adapter<ApplicationList
             appSwitch = view.findViewById(R.id.app_switch);
             appThumbnail = view.findViewById(R.id.appThumbnail);
         }
+    }
+    public void setApps(List<ApplicationItem> appList) {
+        this.appList = appList;
+        notifyDataSetChanged();
     }
 }

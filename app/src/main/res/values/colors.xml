@@ -4,8 +4,8 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-    <color name="RED">#e53935</color>
-    <color name="red_dark">#b71c1c</color>
+    <color name="RED">#E53935</color>
+    <color name="red_dark">#B71C1C</color>
     <color name="orange">#ff9800</color>
     <color name="orange_dark">#ff6d00</color>
     <color name="yellow">#EED45A</color>

@@ -1,4 +1,4 @@
-package ie.fran.fyp.domain;
+package ie.fran.fyp.Focus_On;
 
 
 import android.arch.persistence.room.Entity;
@@ -23,6 +23,7 @@ public class ApplicationDetails {
     public ApplicationDetails(String name) {
         this.name = name;
     }
+
     public ApplicationDetails(String name, String packageName) {
         this.name = name;
         this.packageName = packageName;
@@ -32,6 +33,7 @@ public class ApplicationDetails {
     public void setName(String name) {
         this.name = name;
     }
+
     public String getName() {
         return name;
     }

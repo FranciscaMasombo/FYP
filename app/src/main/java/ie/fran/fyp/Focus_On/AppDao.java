@@ -1,20 +1,20 @@
-package ie.fran.fyp.persistence;
+package ie.fran.fyp.Focus_On;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
-import ie.fran.fyp.domain.ApplicationDetails ;
+import ie.fran.fyp.Focus_On.ApplicationDetails;
 
 @Dao
-public interface ApplicationNameDao {
+public interface AppDao {
 
-    @Insert
-    void insert(ApplicationDetails... applicationName);
+  @Insert
+  void insert(ApplicationDetails applicationName);
 
     @Delete
-    void delete(ApplicationDetails... applicationName);
+    void delete(ApplicationDetails applicationName);
 
 
     @Query("Select * from ApplicationDetails")

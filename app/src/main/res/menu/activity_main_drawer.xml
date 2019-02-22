@@ -4,6 +4,24 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+        <item android:title="Profile">
+            <menu>
+                <item
+                    android:id="@+id/account"
+                    android:icon="@drawable/baseline_account_circle_black_18dp"
+                    android:title="Account" />
+                <item
+                    android:id="@+id/report"
+                    android:icon="@drawable/baseline_insert_chart_black_18dp"
+                    android:title="Report" />
+            </menu>
+        </item>
+
+        <item android:title="Dashboard">
+        <menu>
+            <item android:title="Home"
+                android:id="@+id/home"/>
         <item
             android:id="@+id/focus_on"
             android:icon="@drawable/focus"
@@ -28,19 +46,8 @@
             android:id="@+id/todo"
             android:icon="@drawable/baseline_list_black_18dp"
             android:title="TODO" />
-    </group>
-
-    <item android:title="Profile">
-        <menu>
-            <item
-                android:id="@+id/account"
-                android:icon="@drawable/baseline_account_circle_black_18dp"
-                android:title="Account" />
-            <item
-                android:id="@+id/report"
-                android:icon="@drawable/baseline_insert_chart_black_18dp"
-                android:title="Report" />
         </menu>
-    </item>
+        </item>
+    </group>
 
 </menu>
