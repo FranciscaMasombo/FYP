@@ -1,18 +1,11 @@
 package ie.fran.fyp.Focus_On;
 
-import android.app.AppOpsManager;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageManager;
-import android.provider.Settings;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.SearchView;
 
 import ie.fran.fyp.R;
 
@@ -40,7 +33,7 @@ public class Focus_On_Activity extends AppCompatActivity {
                         selectedFragment = new TimerFragment();
                         break;
                     case R.id.nav_profile:
-                        selectedFragment = new ProfileFragment();
+                        new Focus_On_Activity();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

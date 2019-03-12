@@ -2,7 +2,6 @@ package ie.fran.fyp;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -11,11 +10,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.RelativeLayout;
 
 import ie.fran.fyp.Focus_On.Focus_On_Activity;
+import ie.fran.fyp.Notes.Note_Activity;
 
-public class MainActivity extends AppCompatActivity
+public class Dashboard extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     RelativeLayout focus_on, note, flashcard, planner, todo, scanner;
 
@@ -24,17 +25,17 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity
         focus_on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Focus_On_Activity.class);
+                Intent intent = new Intent(Dashboard.this, Focus_On_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -57,7 +58,7 @@ public class MainActivity extends AppCompatActivity
         note.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Note_Activity.class);
+                Intent intent = new Intent(Dashboard.this, Note_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -65,7 +66,7 @@ public class MainActivity extends AppCompatActivity
         flashcard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Flashcard_Activity.class);
+                Intent intent = new Intent(Dashboard.this, Flashcard_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -73,7 +74,7 @@ public class MainActivity extends AppCompatActivity
         planner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Planner_Activity.class);
+                Intent intent = new Intent(Dashboard.this, Planner_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -81,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         todo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ToDo_Activity.class);
+                Intent intent = new Intent(Dashboard.this, ToDo_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -89,7 +90,7 @@ public class MainActivity extends AppCompatActivity
         scanner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Scanner_Activity.class);
+                Intent intent = new Intent(Dashboard.this, Scanner_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
@@ -99,7 +100,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -136,7 +137,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.focus_on) {
-            Intent intent = new Intent(MainActivity.this, Focus_On_Activity.class);
+            Intent intent = new Intent(Dashboard.this, Focus_On_Activity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
 
@@ -155,12 +156,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.report) {
 
         }else if (id == R.id.home) {
-            Intent intent = new Intent(MainActivity.this, MainActivity.class);
+            Intent intent = new Intent(Dashboard.this, Dashboard.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
             startActivity(intent);
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

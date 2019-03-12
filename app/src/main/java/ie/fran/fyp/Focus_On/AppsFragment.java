@@ -2,7 +2,6 @@ package ie.fran.fyp.Focus_On;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -22,7 +21,7 @@ import java.util.List;
 
 import ie.fran.fyp.R;
 
-
+//  TODO add a progress bar to the apps page
 public class AppsFragment extends Fragment implements SearchView.OnQueryTextListener{
 
     private RecyclerView recyclerView;

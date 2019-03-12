@@ -2,12 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="ie.fran.fyp">
+
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:name=".services.ServiceStarterApplication"
         android:allowBackup="true"
@@ -18,21 +19,28 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".ToDo_Activity"
-            android:theme="@style/ThemeToDo"></activity>
+            android:name=".Notes.NewNote"
+            android:theme="@style/ThemeNote">
+
+        </activity>
+        <activity android:name=".Start" />
+        <activity android:name=".Users.login" />
+        <activity android:name=".Users.SignUp" />
         <activity
-            android:name=".Note_Activity"
-            android:theme="@style/ThemeNote"></activity>
+            android:name=".ToDo_Activity"
+            android:theme="@style/ThemeToDo" />
         <activity
             android:name=".Scanner_Activity"
-            android:theme="@style/ThemeScanner">
-
-        </activity>
+            android:theme="@style/ThemeScanner" />
         <activity
             android:name=".Planner_Activity"
-            android:theme="@style/ThemePlanner">
-
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name=".Notes.Note_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNote">
         </activity>
+
         <activity
             android:name=".Flashcard_Activity"
             android:theme="@style/ThemeFlashCards" />
@@ -46,8 +54,9 @@
             android:enabled="true"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />
+
         <activity
-            android:name=".MainActivity"
+            android:name=".Dashboard"
             android:label="StudyAid"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

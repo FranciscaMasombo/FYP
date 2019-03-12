@@ -17,7 +17,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="ThemeFocusOn" parent="Theme.AppCompat.Light">
+    <style name="ThemeFocusOn" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/RED</item>
         <item name="colorPrimaryDark">@color/red_dark</item>
         <item name="colorAccent">@color/RED</item>
@@ -30,7 +30,7 @@
         <item name="colorAccent">@color/orange</item>
     </style>
 
-    <style name="ThemeNote" parent="Theme.AppCompat.Light">
+    <style name="ThemeNote" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/lime</item>
         <item name="colorPrimaryDark">@color/lime_dark</item>
         <item name="colorAccent">@color/lime</item>
