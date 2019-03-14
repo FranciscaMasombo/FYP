@@ -9,12 +9,8 @@ import android.content.Context;
 //https://developer.android.com/training/data-storage/room/
 @Database(entities = {ApplicationDetails.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
-
     private static AppDatabase db;
-
-
     public abstract AppDao NameDao();
-
 
     public static AppDatabase getAppDatabase(final Context context) {
         if (db == null) {

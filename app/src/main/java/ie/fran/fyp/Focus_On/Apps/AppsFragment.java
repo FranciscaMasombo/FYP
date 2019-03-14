@@ -2,6 +2,7 @@ package ie.fran.fyp.Focus_On.Apps;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -17,6 +18,8 @@ import android.view.ViewGroup;
 import android.widget.SearchView;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
 
 import ie.fran.fyp.R;
@@ -26,6 +29,11 @@ public class AppsFragment extends Fragment implements SearchView.OnQueryTextList
 
     private RecyclerView recyclerView;
     private ApplicationListAdapter adapter;
+    String SETTING_NOTIFICATION_LISTENER = "enabled_notification_listeners";
+    String ACTION_NOTIFICATION_LISTENER_SETTINGS = "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS";
+    String PREF_ENABLED = "pref_enabled";
+    String PREF_PACKAGES_BLOCKED = "pref_packages_blocked";
+    private SharedPreferences Pref;
 
     PackageManager pm;
     private List<ApplicationItem> applicationList = new ArrayList<ApplicationItem>();
@@ -90,6 +98,23 @@ public class AppsFragment extends Fragment implements SearchView.OnQueryTextList
             adapter.setApps(filtered);
         }
         return true;
+    }
+
+    @Override
+    public void onCheckboxAppChecked(int position, boolean isChecked) {
+        String pkg = adapter.getApp(position).packageName;
+        if (Pref.contains(PREF_PACKAGES_BLOCKED)) {
+            HashSet<String> pkgs = new HashSet<>(Arrays.asList(Pref.getString(PREF_PACKAGES_BLOCKED, "").split(";")));
+            if (isChecked) {
+                pkgs.add(pkg);
+            } else {
+                pkgs.remove(pkg);
+            }
+            Pref.edit().putString(PREF_PACKAGES_BLOCKED, TextUtils.join(";", pkgs)).apply();
+
+        } else {
+            Pref.edit().putString(PREF_PACKAGES_BLOCKED, pkg).apply();
+        }
     }
 }
 
