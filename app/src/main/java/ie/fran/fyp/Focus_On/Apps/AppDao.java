@@ -1,11 +1,9 @@
-package ie.fran.fyp.Focus_On;
+package ie.fran.fyp.Focus_On.Apps;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
-
-import ie.fran.fyp.Focus_On.ApplicationDetails;
 
 @Dao
 public interface AppDao {

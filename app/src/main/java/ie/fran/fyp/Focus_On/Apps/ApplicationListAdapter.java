@@ -1,7 +1,6 @@
-package ie.fran.fyp.Focus_On;
+package ie.fran.fyp.Focus_On.Apps;
 
 import android.content.Context;
-import android.content.pm.ApplicationInfo;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;

@@ -1,4 +1,4 @@
-package ie.fran.fyp.Focus_On;
+package ie.fran.fyp.Focus_On.Apps;
 
 import android.graphics.drawable.Drawable;
 
