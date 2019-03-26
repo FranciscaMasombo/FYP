@@ -18,8 +18,6 @@ import android.view.ViewGroup;
 import android.widget.SearchView;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 
 import ie.fran.fyp.R;
@@ -27,12 +25,13 @@ import ie.fran.fyp.R;
 //  TODO add a progress bar to the apps page
 public class AppsFragment extends Fragment implements SearchView.OnQueryTextListener{
 
-    private RecyclerView recyclerView;
-    private ApplicationListAdapter adapter;
-    String SETTING_NOTIFICATION_LISTENER = "enabled_notification_listeners";
-    String ACTION_NOTIFICATION_LISTENER_SETTINGS = "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS";
-    String PREF_ENABLED = "pref_enabled";
-    String PREF_PACKAGES_BLOCKED = "pref_packages_blocked";
+    public static ApplicationListAdapter adapter;
+    public RecyclerView recyclerView;
+    // public ApplicationListAdapter adapter;
+    public String SETTING_NOTIFICATION_LISTENER = "enabled_notification_listeners";
+    public String ACTION_NOTIFICATION_LISTENER_SETTINGS = "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS";
+    public String PREF_ENABLED = "pref_enabled";
+    public String PREF_PACKAGES_BLOCKED = "pref_packages_blocked";
     private SharedPreferences Pref;
 
     PackageManager pm;
@@ -100,21 +99,6 @@ public class AppsFragment extends Fragment implements SearchView.OnQueryTextList
         return true;
     }
 
-    @Override
-    public void onCheckboxAppChecked(int position, boolean isChecked) {
-        String pkg = adapter.getApp(position).packageName;
-        if (Pref.contains(PREF_PACKAGES_BLOCKED)) {
-            HashSet<String> pkgs = new HashSet<>(Arrays.asList(Pref.getString(PREF_PACKAGES_BLOCKED, "").split(";")));
-            if (isChecked) {
-                pkgs.add(pkg);
-            } else {
-                pkgs.remove(pkg);
-            }
-            Pref.edit().putString(PREF_PACKAGES_BLOCKED, TextUtils.join(";", pkgs)).apply();
 
-        } else {
-            Pref.edit().putString(PREF_PACKAGES_BLOCKED, pkg).apply();
-        }
-    }
 }
 

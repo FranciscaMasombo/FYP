@@ -76,6 +76,15 @@
         <meta-data
             android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
             android:value="com.google.firebase.components.ComponentRegistrar" />
+
+        <service
+            android:name=".Focus_On.Block_All_Notification"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

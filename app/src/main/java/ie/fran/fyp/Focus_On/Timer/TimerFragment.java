@@ -1,20 +1,31 @@
 package ie.fran.fyp.Focus_On.Timer;
 
+import android.content.ContentResolver;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.provider.Settings;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Arrays;
+import java.util.HashSet;
+
+import ie.fran.fyp.Focus_On.Apps.AppsFragment;
 import ie.fran.fyp.R;
 
-public class TimerFragment extends Fragment {
+
+public class TimerFragment extends Fragment implements OnCheckboxAppChecked {
 
     Button startButton;
     Button resumeButton;
@@ -24,13 +35,32 @@ public class TimerFragment extends Fragment {
     TextView sndTimerView;
     EditText mntInput;
     EditText sndInput;
+    public String SETTING_NOTIFICATION_LISTENER = "enabled_notification_listeners";
     private Boolean isPause = false;
     private Boolean isStop = false;
+    public String ACTION_NOTIFICATION_LISTENER_SETTINGS = "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS";
+    public String PREF_ENABLED = "pref_enabled";
+    public String PREF_PACKAGES_BLOCKED = "pref_packages_blocked";
+    Switch blocker;
+    SharedPreferences Pref;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_timer, container, false);
+
+        blocker = view.findViewById(R.id.blocker);
+        if (blocker != null) {
+            if (hasAccessGranted()) {
+                blocker.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        Pref.edit().putBoolean(PREF_ENABLED, isChecked).apply();
+                    }
+                });
+            }
+        }
+
 
         startButton = view.findViewById(R.id.startButton);
         resumeButton = view.findViewById(R.id.resumeButton);
@@ -61,6 +91,7 @@ public class TimerFragment extends Fragment {
                     } else if (mntInput.length() != 0 || sndInput.length() == 0) {
                         sndInput.setText("00");
                     } else {
+
                         mntInput.setText("00");
                         sndInput.setText("00");
                     }
@@ -225,5 +256,29 @@ public class TimerFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onCheckboxAppChecked(int position, boolean isChecked) {
+        String pkg = AppsFragment.adapter.getApp(position).packageName;
+        if (Pref.contains(PREF_PACKAGES_BLOCKED)) {
+            HashSet<String> pkgs = new HashSet<>(Arrays.asList(Pref.getString(PREF_PACKAGES_BLOCKED, "").split(";")));
+            if (isChecked) {
+                pkgs.add(pkg);
+            } else {
+                pkgs.remove(pkg);
+            }
+            Pref.edit().putString(PREF_PACKAGES_BLOCKED, TextUtils.join(";", pkgs)).apply();
+
+        } else {
+            Pref.edit().putString(PREF_PACKAGES_BLOCKED, pkg).apply();
+        }
+    }
+
+    private boolean hasAccessGranted() {
+        ContentResolver contentResolver = this.getActivity().getContentResolver();
+        String enabledNotificationListeners = Settings.Secure.getString(contentResolver, SETTING_NOTIFICATION_LISTENER);
+        String packageName = this.getActivity().getPackageName();
+        // check to see if the enabledNotificationListeners String contains our package name
+        return !(enabledNotificationListeners == null || !enabledNotificationListeners.contains(packageName));
+    }
 
 }
