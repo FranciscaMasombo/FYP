@@ -1,9 +1,10 @@
-package ie.fran.fyp.Focus_On;
+package ie.fran.fyp.Focus_On.Apps;
 
+import android.content.pm.PackageInfo;
 import android.graphics.drawable.Drawable;
 
 
-public class ApplicationItem {
+public class ApplicationItem extends PackageInfo {
 
 
     private String name;

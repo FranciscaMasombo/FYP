@@ -7,6 +7,8 @@ import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import ie.fran.fyp.Focus_On.Apps.AppsFragment;
+import ie.fran.fyp.Focus_On.Timer.TimerFragment;
 import ie.fran.fyp.R;
 
 public class Focus_On_Activity extends AppCompatActivity {

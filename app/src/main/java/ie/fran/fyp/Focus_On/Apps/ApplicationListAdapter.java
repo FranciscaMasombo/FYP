@@ -1,7 +1,7 @@
-package ie.fran.fyp.Focus_On;
+package ie.fran.fyp.Focus_On.Apps;
 
 import android.content.Context;
-import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
@@ -56,6 +56,10 @@ public class ApplicationListAdapter extends RecyclerView.Adapter<ApplicationList
     @Override
     public int getItemCount() {
         return appList.size();
+    }
+
+    public PackageInfo getApp(int position) {
+        return appList.get(position);
     }
 
     public class ItemHolder extends RecyclerView.ViewHolder {

@@ -1,7 +1,8 @@
-package ie.fran.fyp.Focus_On;
+package ie.fran.fyp.Focus_On.Apps;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -24,8 +25,14 @@ import ie.fran.fyp.R;
 //  TODO add a progress bar to the apps page
 public class AppsFragment extends Fragment implements SearchView.OnQueryTextListener{
 
-    private RecyclerView recyclerView;
-    private ApplicationListAdapter adapter;
+    public static ApplicationListAdapter adapter;
+    public RecyclerView recyclerView;
+    // public ApplicationListAdapter adapter;
+    public String SETTING_NOTIFICATION_LISTENER = "enabled_notification_listeners";
+    public String ACTION_NOTIFICATION_LISTENER_SETTINGS = "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS";
+    public String PREF_ENABLED = "pref_enabled";
+    public String PREF_PACKAGES_BLOCKED = "pref_packages_blocked";
+    private SharedPreferences Pref;
 
     PackageManager pm;
     private List<ApplicationItem> applicationList = new ArrayList<ApplicationItem>();
@@ -91,5 +98,7 @@ public class AppsFragment extends Fragment implements SearchView.OnQueryTextList
         }
         return true;
     }
+
+
 }
 
