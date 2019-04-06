@@ -25,7 +25,7 @@ import ie.fran.fyp.Focus_On.Apps.AppsFragment;
 import ie.fran.fyp.R;
 
 
-public class TimerFragment extends Fragment implements OnCheckboxAppChecked {
+public class TimerFragment extends Fragment  {
 
     Button startButton;
     Button resumeButton;
@@ -256,7 +256,7 @@ public class TimerFragment extends Fragment implements OnCheckboxAppChecked {
         return view;
     }
 
-    @Override
+    //@Override
     public void onCheckboxAppChecked(int position, boolean isChecked) {
         String pkg = AppsFragment.adapter.getApp(position).packageName;
         if (Pref.contains(PREF_PACKAGES_BLOCKED)) {

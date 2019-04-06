@@ -25,7 +25,7 @@
     </style>
 
     <style name="ThemePlanner" parent="Theme.AppCompat.Light">
-        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimary">@color/orange_dark</item>
         <item name="colorPrimaryDark">@color/orange_dark</item>
         <item name="colorAccent">@color/orange</item>
     </style>
