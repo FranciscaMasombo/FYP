@@ -19,9 +19,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
         <activity
             android:name=".Notes.NewNote"
-            android:theme="@style/ThemeNote"></activity>
+            android:theme="@style/ThemeNote"/>
+
         <activity android:name=".Start" />
         <activity android:name=".Users.login" />
         <activity android:name=".Users.SignUp" />
@@ -32,10 +34,11 @@
             android:theme="@style/ThemeToDo" />
         <activity android:name="ie.fran.fyp.ToDo.EditTaskDesk"
             android:theme="@style/ThemeToDo" />
-            android:name=".Scanner_Activity"
+
+        <activity android:name=".Scanner_Activity"
             android:theme="@style/ThemeScanner" />
         <activity
-            android:name=".Planner_Activity"
+            android:name=".Planner.Planner_Activity"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name=".Notes.Note_Activity"

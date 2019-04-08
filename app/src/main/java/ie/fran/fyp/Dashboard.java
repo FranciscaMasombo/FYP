@@ -15,6 +15,7 @@ import android.widget.RelativeLayout;
 
 import ie.fran.fyp.Focus_On.Focus_On_Activity;
 import ie.fran.fyp.Notes.Note_Activity;
+import ie.fran.fyp.Planner.Planner_Activity;
 import ie.fran.fyp.ToDo.ToDo_Activity;
 
 public class Dashboard extends AppCompatActivity

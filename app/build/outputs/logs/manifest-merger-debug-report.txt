@@ -14,7 +14,7 @@ MERGED from [com.firebaseui:firebase-ui-firestore:4.3.1] C:\Users\Francisca Maso
 MERGED from [com.firebaseui:firebase-ui-storage:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-storage-4.3.1.aar\6500ccaf41e0b34fce6f52a0d46ef09a\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:15:1-36:12
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ffa037a7dc9611b34c1eff9656762f8a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:2:1-21:12
@@ -22,7 +22,7 @@ MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Francisc
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\eb1b8010d89e216ccee250813ae245e0\AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\01c1214b76051ec8325c4d63f7a10f97\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\1522e8f45199ee59e50364181ed17af5\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:17:1-59:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\183a2d6544de2f45096db2f0e5fef65a\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a45d94a92df4b09e0b4cb1d2fedf2169\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\54e0b795340f3c11e15df018ac708118\AndroidManifest.xml:2:1-19:12
@@ -118,8 +118,8 @@ MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Mas
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:11:22-64
 application
@@ -134,8 +134,8 @@ MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Ma
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:28:5-34:19
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:13:5-19:19
@@ -144,8 +144,8 @@ MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Francisc
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\03220575ac0769eec1e9f0e052c02252\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\eb1b8010d89e216ccee250813ae245e0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\eb1b8010d89e216ccee250813ae245e0\AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:28:5-57:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\183a2d6544de2f45096db2f0e5fef65a\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\183a2d6544de2f45096db2f0e5fef65a\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a45d94a92df4b09e0b4cb1d2fedf2169\AndroidManifest.xml:22:5-27:19
@@ -226,12 +226,12 @@ ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidM
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:34:13-45
 	android:name
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:33:19-63
-activity#ie.fran.fyp.Planner_Activity
+activity#ie.fran.fyp.Planner.Planner_Activity
 ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:37:9-39:51
 	android:theme
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:39:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:38:13-53
 activity#ie.fran.fyp.Notes.Note_Activity
 ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:40:9-43:57
 	android:screenOrientation
@@ -294,8 +294,8 @@ MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Mas
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:14:9-18:19
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:14:9-18:19
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:29:9-35:19
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:35:13-37
 	android:name
@@ -356,8 +356,8 @@ MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Ma
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ffa037a7dc9611b34c1eff9656762f8a\AndroidManifest.xml:20:5-44
@@ -372,8 +372,8 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\01c1214b76051ec8325c4d63f7a10f97\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\1522e8f45199ee59e50364181ed17af5\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\1522e8f45199ee59e50364181ed17af5\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\183a2d6544de2f45096db2f0e5fef65a\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\183a2d6544de2f45096db2f0e5fef65a\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a45d94a92df4b09e0b4cb1d2fedf2169\AndroidManifest.xml:20:5-44
@@ -488,8 +488,8 @@ MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Mas
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:26:5-79
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:10:5-79
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.3.1.aar\180b4c3faf4c83c1672041d859b0c862\AndroidManifest.xml:12:22-76
 meta-data#com.google.android.gms.version
@@ -713,19 +713,19 @@ ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:25:13-85
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:29:13-82
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:17.6.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.6.0.aar\dea2c6cfcb2280acc39090fe0ea1225a\AndroidManifest.xml:32:25-75
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
 ADDED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:31:13-33:85
 	android:value
@@ -757,41 +757,41 @@ ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Francisca
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\eb1b8010d89e216ccee250813ae245e0\AndroidManifest.xml:34:13-89
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:24:22-65
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:24:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:26:5-82
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:26:22-79
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:26:22-79
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:37:9-44:20
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:39:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:40:13-73
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:38:13-78
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:38:13-78
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:41:13-43:29
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:41:13-43:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:42:17-81
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:42:17-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:42:25-78
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:42:25-78
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:50:9-56:19
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:50:9-56:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:52:13-36
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:51:13-77
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:51:13-77
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:53:13-55:29
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:53:13-55:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:53:28-51
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:53:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:54:17-80
+ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:54:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:54:25-77
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.2.aar\4a7323ec7c90c8baaae593f395df426d\AndroidManifest.xml:54:25-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\a45d94a92df4b09e0b4cb1d2fedf2169\AndroidManifest.xml:23:9-26:75
 	android:exported

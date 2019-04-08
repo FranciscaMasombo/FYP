@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\Francisca Masombo\\Documents\\GitHub\\FYP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.6.0.aar\\dea2c6cfcb2280acc39090fe0ea1225a\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "6177",
+                        "endColumns": "104",
+                        "endOffsets": "6277"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a45d94a92df4b09e0b4cb1d2fedf2169\\res\\values-ar\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,23 +69,6 @@
                         "startOffsets": "918,1035,1139,1248,1330,1431,1545,1624,1703,1794,1887,1983,2077,2178,2271,2366,2460,2551,2645,2724,2829,2930,3026,3134,3237,3340,3495,14540",
                         "endColumns": "116,103,108,81,100,113,78,78,90,92,95,93,100,92,94,93,90,93,78,104,100,95,107,102,102,154,96,80",
                         "endOffsets": "1030,1134,1243,1325,1426,1540,1619,1698,1789,1882,1978,2072,2173,2266,2361,2455,2546,2640,2719,2824,2925,3021,3129,3232,3335,3490,3587,14616"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.5.0.aar\\7bc607681a9a7b96a7644359a8f07620\\res\\values-ar\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "6177",
-                        "endColumns": "104",
-                        "endOffsets": "6277"
                     }
                 },
                 {
