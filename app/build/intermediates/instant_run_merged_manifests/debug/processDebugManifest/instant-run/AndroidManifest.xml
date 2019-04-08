@@ -36,8 +36,12 @@
         <activity
             android:name="ie.fran.fyp.ToDo.ToDo_Activity"
             android:theme="@style/ThemeToDo" />
-        <activity android:name="ie.fran.fyp.ToDo.NewTaskAct" />
-        <activity android:name="ie.fran.fyp.ToDo.EditTaskDesk" />
+        <activity
+            android:name="ie.fran.fyp.ToDo.NewTaskAct"
+            android:theme="@style/ThemeToDo" />
+        <activity
+            android:name="ie.fran.fyp.ToDo.EditTaskDesk"
+            android:theme="@style/ThemeToDo" />
             android:name=".Scanner_Activity"
             android:theme="@style/ThemeScanner" />
         <activity

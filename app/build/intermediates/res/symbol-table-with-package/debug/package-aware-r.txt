@@ -1244,7 +1244,6 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAddNew
-id btnCancel
 id btnDelete
 id btnSaveTask
 id btnSaveUpdate
@@ -1305,7 +1304,6 @@ id email_top_layout
 id email_tos_and_pp_text
 id end
 id end_padder
-id endpage
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
