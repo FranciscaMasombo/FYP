@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.3.1.aar\180b4c3faf4c83c1672041d859b0c862\AndroidManifest.xml:2:1-109:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d3b1e5117262b8d2bd8cf884423d6cdd\AndroidManifest.xml:17:1-24:12
 MERGED from [com.firebaseui:firebase-ui-auth-github:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-github-4.3.1.aar\40b0a0695cd3ce82da6ae9ffbc152fd4\AndroidManifest.xml:2:1-36:12
@@ -13,7 +13,7 @@ MERGED from [com.firebaseui:firebase-ui-database:4.3.1] C:\Users\Francisca Masom
 MERGED from [com.firebaseui:firebase-ui-firestore:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-firestore-4.3.1.aar\2cb66d8d08c61bfcfd6a09bb546f8976\AndroidManifest.xml:2:1-13:12
 MERGED from [com.firebaseui:firebase-ui-storage:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-storage-4.3.1.aar\6500ccaf41e0b34fce6f52a0d46ef09a\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:15:1-36:12
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\ffa037a7dc9611b34c1eff9656762f8a\AndroidManifest.xml:17:1-22:12
@@ -71,22 +71,22 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Francisca Masombo
 MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\gifdecoder-4.8.0.aar\24c93cb78efd367fc086eb879a1d8b95\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\8c474ddaf8db3a452ad3d88199278e53\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\protolite-well-known-types-16.0.1.aar\3f87fc08cfe125fda89283e696c94f71\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
-INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
 	package
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:4:5-26
 		INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
 		INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-90:12
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:1-89:12
 		INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:2:11-69
@@ -123,7 +123,7 @@ MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo
 	android:name
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:11:22-64
 application
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:12:5-88:19
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:13:5-87:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.3.1.aar\180b4c3faf4c83c1672041d859b0c862\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-4.3.1.aar\180b4c3faf4c83c1672041d859b0c862\AndroidManifest.xml:15:5-107:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d3b1e5117262b8d2bd8cf884423d6cdd\AndroidManifest.xml:22:5-20
@@ -132,8 +132,8 @@ MERGED from [com.firebaseui:firebase-ui-auth-github:4.3.1] C:\Users\Francisca Ma
 MERGED from [com.firebaseui:firebase-ui-auth-github:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-github-4.3.1.aar\40b0a0695cd3ce82da6ae9ffbc152fd4\AndroidManifest.xml:12:5-34:19
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:28:5-34:19
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:28:5-34:19
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:29:5-35:19
@@ -175,51 +175,53 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] C:\Users\Francisca Maso
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\6e69e14fc023671b74a944722e1b8b0b\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:17:9-41
 	tools:ignore
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:20:9-48
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:21:9-48
 	android:roundIcon
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:13:9-59
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:14:9-68
 activity#ie.fran.fyp.Notes.NewNote
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:21:9-25:20
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:22:9-24:57
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:22:13-42
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:23:13-42
 activity#ie.fran.fyp.Start
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:26:9-43
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:25:9-43
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:26:19-40
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:25:19-40
 activity#ie.fran.fyp.Users.login
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:27:9-49
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:26:9-49
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:27:19-46
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:26:19-46
 activity#ie.fran.fyp.Users.SignUp
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:28:9-50
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:28:19-47
-activity#ie.fran.fyp.ToDo_Activity
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:29:9-31:48
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:27:19-47
+activity#ie.fran.fyp.ToDo.ToDo_Activity
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:28:9-30:48
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:30:13-45
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:30:13-42
-activity#ie.fran.fyp.Scanner_Activity
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:32:9-34:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:34:13-48
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:29:13-47
+activity#ie.fran.fyp.ToDo.NewTaskAct
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:31:9-53
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:33:13-45
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:31:19-50
+activity#ie.fran.fyp.ToDo.EditTaskDesk
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:32:9-66
+	android:name
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:32:19-63
 activity#ie.fran.fyp.Planner_Activity
 ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:35:9-37:51
 	android:theme
@@ -227,7 +229,7 @@ ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:36:13-45
 activity#ie.fran.fyp.Notes.Note_Activity
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:38:9-42:20
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:38:9-41:57
 	android:screenOrientation
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:40:13-49
 	android:theme
@@ -235,55 +237,55 @@ ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:39:13-48
 activity#ie.fran.fyp.Flashcard_Activity
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:44:9-46:54
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:42:9-44:54
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:46:13-51
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:44:13-51
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:45:13-47
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:43:13-47
 activity#ie.fran.fyp.Focus_On.Focus_On_Activity
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:47:9-49:51
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:45:9-47:51
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:49:13-48
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:47:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:48:13-55
-activity#ie.fran.fyp.services.KhanAcademyActivity
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:50:9-66
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:46:13-55
+activity#ie.fran.fyp.Focus_On.services.KhanAcademyActivity
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:48:9-75
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:50:19-63
-service#ie.fran.fyp.services.AppBlockerService
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:52:9-56:44
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:48:19-72
+service#ie.fran.fyp.Focus_On.services.AppBlockerService
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:50:9-54:44
 	android:process
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:55:13-49
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:53:13-49
 	android:enabled
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:54:13-35
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:52:13-35
 	android:stopWithTask
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:56:13-41
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:54:13-41
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:53:13-55
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:51:13-64
 activity#ie.fran.fyp.Dashboard
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:58:9-67:20
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:56:9-65:20
 	android:label
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:60:13-37
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:58:13-37
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:59:13-56
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:59:13-38
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:57:13-38
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:62:13-66:29
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:63:17-69
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:63:25-66
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:65:17-77
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:65:27-74
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:63:27-74
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:68:9-92
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:67:9-92
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:29:9-33:19
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:29:9-33:19
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-firestore-17.1.4.aar\a58a51c571160d88d95947654eff0aa3\AndroidManifest.xml:14:9-18:19
@@ -291,41 +293,41 @@ MERGED from [com.google.firebase:firebase-firestore:17.1.4] C:\Users\Francisca M
 MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\ae0435d290669427debeaf26c9d990cf\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:68:18-89
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:67:18-89
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:70:9-72:81
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:69:9-71:81
 	android:value
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:72:13-78
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:71:13-78
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:71:13-105
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:70:13-105
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:73:9-75:81
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:72:9-74:81
 	android:value
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:75:13-78
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:74:13-78
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:74:13-135
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:73:13-135
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:76:9-78:81
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:75:9-77:81
 	android:value
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:78:13-78
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:77:13-78
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:77:13-92
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:76:13-92
 service#ie.fran.fyp.Focus_On.Block_All_Notification
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:80:9-87:19
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:79:9-86:19
 	android:label
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:82:13-45
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:81:13-45
 	android:permission
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:83:13-87
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:82:13-87
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:81:13-60
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:80:13-60
 intent-filter#action:name:android.service.notification.NotificationListenerService
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:84:13-86:29
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:83:13-85:29
 action#android.service.notification.NotificationListenerService
-ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:85:17-99
+ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:84:17-99
 	android:name
-		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:85:25-96
+		ADDED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml:84:25-96
 uses-sdk
 INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Francisca Masombo\Documents\GitHub\FYP\app\src\main\AndroidManifest.xml
@@ -348,8 +350,8 @@ MERGED from [com.firebaseui:firebase-ui-storage:4.3.1] C:\Users\Francisca Masomb
 MERGED from [com.firebaseui:firebase-ui-storage:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-ui-storage-4.3.1.aar\6500ccaf41e0b34fce6f52a0d46ef09a\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-storage:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-storage-16.1.0.aar\372fac7bcdd2cc0fe1a397592cfe89c9\AndroidManifest.xml:20:5-22:41
@@ -691,21 +693,21 @@ ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Mas
 	android:name
 		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\d800ad6741587de2cc4c5fc303982c05\AndroidManifest.xml:31:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.2.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.0.aar\cb9982699a4e08fa398b51316b335a3b\AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\83cbaa4af5fc56d8926af0684eed59c6\AndroidManifest.xml:25:13-85
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.5.0.aar\7bc607681a9a7b96a7644359a8f07620\AndroidManifest.xml:28:9-34:19
 	android:exported

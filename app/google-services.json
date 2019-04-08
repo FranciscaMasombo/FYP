@@ -23,8 +23,12 @@
           }
         },
         {
-          "client_id": "406123930534-46qr1l57arte2gdjvrjelvn6glik4au6.apps.googleusercontent.com",
-          "client_type": 3
+          "client_id": "406123930534-7f0mqe2kqo88v8vkoiihul1lujf0vvo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ie.fran.fyp",
+            "certificate_hash": "3cd6d42d6ac07836440d7de387e710367f99b24a"
+          }
         }
       ],
       "api_key": [
@@ -33,20 +37,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
               "client_id": "406123930534-46qr1l57arte2gdjvrjelvn6glik4au6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

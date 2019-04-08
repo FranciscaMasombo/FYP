@@ -1219,9 +1219,9 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
-id add_task_box
-id add_task_button
-id add_task_wrapper
+id adddate
+id adddesc
+id addtitle
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1243,7 +1243,11 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAddNew
+id btnCancel
 id btnDelete
+id btnSaveTask
+id btnSaveUpdate
 id btn_holder
 id btn_log
 id btn_reg
@@ -1277,8 +1281,10 @@ id cross_device_linking_body
 id custom
 id customPanel
 id dark
+id datedoes
 id decor_content_parent
 id default_activity_button
+id descdoes
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1299,6 +1305,7 @@ id email_top_layout
 id email_tos_and_pp_text
 id end
 id end_padder
+id endpage
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -1400,6 +1407,7 @@ id notes_list
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id ourdoes
 id outline
 id pa
 id packed
@@ -1495,7 +1503,6 @@ id task
 id task_date
 id task_delete
 id task_icon
-id task_list
 id task_title
 id text
 id text2
@@ -1515,6 +1522,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id titledoes
 id titlepage
 id todo
 id toolbar
@@ -1598,6 +1606,7 @@ layout abc_tooltip
 layout activity_flashcard_
 layout activity_focus__on_
 layout activity_main
+layout activity_new_task
 layout activity_note_
 layout activity_planner
 layout activity_scanner_
@@ -1621,6 +1630,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout edit_to_do
 layout fragment_apps
 layout fragment_profile
 layout fragment_timer
@@ -1647,6 +1657,7 @@ layout fui_register_email_layout
 layout fui_welcome_back_email_link_prompt_layout
 layout fui_welcome_back_idp_prompt_layout
 layout fui_welcome_back_password_prompt_layout
+layout item_does
 layout login
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

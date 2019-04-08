@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">406123930534-46qr1l57arte2gdjvrjelvn6glik4au6.apps.googleusercontent.com</string>
     <string name="firebase_database_url" translatable="false">https://fyp-2019.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">406123930534</string>
     <string name="google_api_key" translatable="false">AIzaSyBMnrcz-Zfi6dFMd0ztUa7_7m-9u5roQx4</string>

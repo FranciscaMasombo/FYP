@@ -17,7 +17,7 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <application
-        android:name="ie.fran.fyp.services.ServiceStarterApplication"
+        android:name="ie.fran.fyp.Focus_On.services.ServiceStarterApplication"
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
@@ -29,16 +29,16 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="ie.fran.fyp.Notes.NewNote"
-            android:theme="@style/ThemeNote" >
-        </activity>
+            android:theme="@style/ThemeNote" />
         <activity android:name="ie.fran.fyp.Start" />
         <activity android:name="ie.fran.fyp.Users.login" />
         <activity android:name="ie.fran.fyp.Users.SignUp" />
         <activity
-            android:name="ie.fran.fyp.ToDo_Activity"
+            android:name="ie.fran.fyp.ToDo.ToDo_Activity"
             android:theme="@style/ThemeToDo" />
-        <activity
-            android:name="ie.fran.fyp.Scanner_Activity"
+        <activity android:name="ie.fran.fyp.ToDo.NewTaskAct" />
+        <activity android:name="ie.fran.fyp.ToDo.EditTaskDesk" />
+            android:name=".Scanner_Activity"
             android:theme="@style/ThemeScanner" />
         <activity
             android:name="ie.fran.fyp.Planner_Activity"
@@ -46,18 +46,17 @@
         <activity
             android:name="ie.fran.fyp.Notes.Note_Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/ThemeNote" >
-        </activity>
+            android:theme="@style/ThemeNote" />
         <activity
             android:name="ie.fran.fyp.Flashcard_Activity"
             android:theme="@style/ThemeFlashCards" />
         <activity
             android:name="ie.fran.fyp.Focus_On.Focus_On_Activity"
             android:theme="@style/ThemeFocusOn" />
-        <activity android:name="ie.fran.fyp.services.KhanAcademyActivity" />
+        <activity android:name="ie.fran.fyp.Focus_On.services.KhanAcademyActivity" />
 
         <service
-            android:name="ie.fran.fyp.services.AppBlockerService"
+            android:name="ie.fran.fyp.Focus_On.services.AppBlockerService"
             android:enabled="true"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />

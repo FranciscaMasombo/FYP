@@ -9,8 +9,9 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
-        android:name=".services.ServiceStarterApplication"
+        android:name=".Focus_On.services.ServiceStarterApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/StudyAid"
@@ -20,16 +21,15 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".Notes.NewNote"
-            android:theme="@style/ThemeNote">
-
-        </activity>
+            android:theme="@style/ThemeNote"></activity>
         <activity android:name=".Start" />
         <activity android:name=".Users.login" />
         <activity android:name=".Users.SignUp" />
         <activity
-            android:name=".ToDo_Activity"
+            android:name=".ToDo.ToDo_Activity"
             android:theme="@style/ThemeToDo" />
-        <activity
+        <activity android:name=".ToDo.NewTaskAct" />
+        <activity android:name="ie.fran.fyp.ToDo.EditTaskDesk" />
             android:name=".Scanner_Activity"
             android:theme="@style/ThemeScanner" />
         <activity
@@ -38,19 +38,17 @@
         <activity
             android:name=".Notes.Note_Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/ThemeNote">
-        </activity>
-
+            android:theme="@style/ThemeNote"></activity>
         <activity
             android:name=".Flashcard_Activity"
             android:theme="@style/ThemeFlashCards" />
         <activity
             android:name=".Focus_On.Focus_On_Activity"
             android:theme="@style/ThemeFocusOn" />
-        <activity android:name=".services.KhanAcademyActivity" />
+        <activity android:name=".Focus_On.services.KhanAcademyActivity" />
 
         <service
-            android:name=".services.AppBlockerService"
+            android:name=".Focus_On.services.AppBlockerService"
             android:enabled="true"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />
@@ -65,6 +63,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" />
 
         <meta-data
