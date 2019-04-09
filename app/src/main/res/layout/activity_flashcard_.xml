@@ -4,27 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="flipCard"
     tools:context=".Flashcard_Activity">
-
-
-    <FrameLayout
-        android:id="@+id/card_back"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <include layout="@layout/card_back" />
-
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/card_front"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
-        <include layout="@layout/card_front" />
-
-    </FrameLayout>
 
 
 </FrameLayout>

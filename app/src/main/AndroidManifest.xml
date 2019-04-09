@@ -19,23 +19,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
+        <activity android:name=".Planner.AddTask"
+            android:theme="@style/ThemePlanner"></activity>
+        <activity
+            android:name=".Planner.Monday"
+            android:theme="@style/ThemePlanner" />
         <activity
             android:name=".Notes.NewNote"
-            android:theme="@style/ThemeNote"/>
-
+            android:theme="@style/ThemeNote" />
         <activity android:name=".Start" />
         <activity android:name=".Users.login" />
         <activity android:name=".Users.SignUp" />
         <activity
             android:name=".ToDo.ToDo_Activity"
             android:theme="@style/ThemeToDo" />
-        <activity android:name=".ToDo.NewTaskAct"
+        <activity
+            android:name=".ToDo.NewTaskAct"
             android:theme="@style/ThemeToDo" />
-        <activity android:name="ie.fran.fyp.ToDo.EditTaskDesk"
+        <activity
+            android:name=".ToDo.EditTaskDesk"
             android:theme="@style/ThemeToDo" />
-
-        <activity android:name=".Scanner_Activity"
+        <activity
+            android:name=".Scanner_Activity"
             android:theme="@style/ThemeScanner" />
         <activity
             android:name=".Planner.Planner_Activity"
@@ -43,7 +48,7 @@
         <activity
             android:name=".Notes.Note_Activity"
             android:screenOrientation="portrait"
-            android:theme="@style/ThemeNote"></activity>
+            android:theme="@style/ThemeNote" />
         <activity
             android:name=".Flashcard_Activity"
             android:theme="@style/ThemeFlashCards" />
