@@ -27,6 +27,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="ie.fran.fyp.Planner.View_or_Edit" />
         <activity
             android:name="ie.fran.fyp.Planner.AddTask"
             android:theme="@style/ThemePlanner" />
