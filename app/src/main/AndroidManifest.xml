@@ -20,6 +20,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
+        <activity android:name=".Flashcards.CreateFlashcards"></activity>
         <activity android:name=".Flashcards.Cards_Display" />
         <activity android:name=".Planner.Monday.View_or_Edit" />
         <activity
