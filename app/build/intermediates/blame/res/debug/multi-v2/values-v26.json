@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-4.3.1.aar\\180b4c3faf4c83c1672041d859b0c862\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\8d4cb11e7c5648e86604cc431dbdf44e\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6,10,14",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1a593711a0acbb390c39b809a6332d4f\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

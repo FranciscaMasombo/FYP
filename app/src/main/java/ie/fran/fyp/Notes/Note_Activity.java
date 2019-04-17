@@ -43,6 +43,7 @@ public class Note_Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_note_);
+
         mNotesList = findViewById(R.id.notes_list);
 
         gridLayoutManager = new GridLayoutManager(this, 2, GridLayoutManager.VERTICAL, false);
@@ -55,7 +56,9 @@ public class Note_Activity extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
         if (fAuth.getCurrentUser() != null) {
-            fNotesDatabase = FirebaseDatabase.getInstance().getReference().child("Notes").child(fAuth.getCurrentUser().getUid());
+            fNotesDatabase = FirebaseDatabase
+                    .getInstance().getReference()
+                    .child("Notes").child(fAuth.getCurrentUser().getUid());
         }
 
         updateUI();
@@ -71,15 +74,18 @@ public class Note_Activity extends AppCompatActivity {
 
     private void loadData() {
         Query query = fNotesDatabase.orderByValue();
-        FirebaseRecyclerOptions<NoteModel> options = new FirebaseRecyclerOptions.Builder<NoteModel>()
+        FirebaseRecyclerOptions<NoteModel> options
+                = new FirebaseRecyclerOptions.Builder<NoteModel>()
                 .setQuery(query, NoteModel.class)
                 .build();
-        FirebaseRecyclerAdapter firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<NoteModel, NoteViewHolder>
+        FirebaseRecyclerAdapter firebaseRecyclerAdapter
+                = new FirebaseRecyclerAdapter<NoteModel, NoteViewHolder>
                 (options) {
             @NonNull
             @Override
             public NoteViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-                View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.single_note_layout, viewGroup, false);
+                View view = LayoutInflater.from(viewGroup.getContext())
+                        .inflate(R.layout.single_note_layout, viewGroup, false);
                 return new NoteViewHolder(view);
             }
 

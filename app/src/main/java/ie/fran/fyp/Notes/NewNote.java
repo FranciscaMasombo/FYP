@@ -70,7 +70,9 @@ public class NewNote extends AppCompatActivity {
 
 
         fAuth = FirebaseAuth.getInstance();
-        fNotesDatabase = FirebaseDatabase.getInstance().getReference().child("Notes").child(fAuth.getCurrentUser().getUid());
+        fNotesDatabase = FirebaseDatabase.getInstance().getReference()
+                .child("Notes")
+                .child(fAuth.getCurrentUser().getUid());
 
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override

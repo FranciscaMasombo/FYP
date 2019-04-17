@@ -20,7 +20,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".Flashcards.CreateFlashcards"></activity>
+        <activity
+            android:name=".FlashcardsMainActivity"
+            />
+        <activity android:name=".AddDeckActivity" />
+        <activity android:name=".ViewCardsActivity" />
+        <activity android:name=".Flashcards.CreateFlashcards">
+
+        </activity>
         <activity android:name=".Flashcards.Cards_Display" />
         <activity android:name=".Planner.Monday.View_or_Edit" />
         <activity
@@ -43,9 +50,6 @@
             android:theme="@style/ThemeToDo" />
         <activity
             android:name=".ToDo.NewTaskAct"
-            android:theme="@style/ThemeToDo" />
-        <activity
-            android:name=".ToDo.EditTaskDesk"
             android:theme="@style/ThemeToDo" />
         <activity
             android:name=".Scanner_Activity"

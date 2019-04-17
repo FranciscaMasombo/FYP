@@ -25,4 +25,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="front">FRONT</string>
     <string name="back">BACK</string>
+    <string name="my_decks">My Decks</string>
+    <string name="shared_decks">share decks</string>
+    <string name="search_decks">Secrch decks</string>
+    <string name="deck_edited">deck edited</string>
+    <string name="deck_created">dech created</string>
+    <string name="empty_card_error">empty card error</string>
+    <string name="score_completion">Score</string>
 </resources>

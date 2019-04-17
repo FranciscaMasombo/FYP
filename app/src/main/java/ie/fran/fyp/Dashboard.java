@@ -13,7 +13,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import ie.fran.fyp.Flashcards.Flashcard_Activity;
 import ie.fran.fyp.Focus.Focus_On_Activity;
 import ie.fran.fyp.Notes.Note_Activity;
 import ie.fran.fyp.Planner.Planner_Activity;
@@ -69,7 +68,7 @@ public class Dashboard extends AppCompatActivity
         flashcard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, Flashcard_Activity.class);
+                Intent intent = new Intent(Dashboard.this, FlashcardsMainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }
