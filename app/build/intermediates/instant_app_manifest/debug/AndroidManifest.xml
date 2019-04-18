@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ie.fran.fyp"
+    android:permission="android.permission.RECEIVE_BOOT_COMPLETED"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -30,9 +31,6 @@
         <activity android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.AddDeckActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.ViewCardsActivity" />
-        <activity android:name="ie.fran.fyp.Flashcards.CreateFlashcards" >
-        </activity>
-        <activity android:name="ie.fran.fyp.Flashcards.Cards_Display" />
         <activity android:name="ie.fran.fyp.Planner.Monday.View_or_Edit" />
         <activity
             android:name="ie.fran.fyp.Planner.Monday.AddTask"
@@ -63,9 +61,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
         <activity
-            android:name="ie.fran.fyp.Flashcards.Flashcard_Activity"
-            android:theme="@style/ThemeFlashCards" />
-        <activity
             android:name="ie.fran.fyp.Focus.Focus_On_Activity"
             android:theme="@style/ThemeFocusOn" />
         <activity android:name="ie.fran.fyp.Focus.services.KhanAcademyActivity" />
@@ -75,6 +70,12 @@
             android:enabled="true"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />
+
+        <receiver android:name="ie.fran.fyp.Focus.services.PhoneBootReciever" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
 
         <activity
             android:name="ie.fran.fyp.Dashboard"
@@ -223,6 +224,9 @@
             android:launchMode="singleTask"
             android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
         <activity
             android:name="com.firebase.ui.auth.ui.github.GitHubLoginActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"

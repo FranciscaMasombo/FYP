@@ -231,6 +231,7 @@
     <color name="dim_foreground_material_light">#ff323232</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
+    <color name="flat_pressed">#66999999</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="fui_bgAnonymous">#f4b400</color>
@@ -381,6 +382,14 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="browser_actions_context_menu_max_width">500dp</dimen>
     <dimen name="browser_actions_context_menu_min_padding">20dp</dimen>
+    <dimen name="btn_corner_radius">2dp</dimen>
+    <dimen name="btn_flat_padding">8dp</dimen>
+    <dimen name="btn_margin">4dp</dimen>
+    <dimen name="btn_min_height">36dp</dimen>
+    <dimen name="btn_min_width">88dp</dimen>
+    <dimen name="btn_normal_margin">4dp</dimen>
+    <dimen name="btn_normal_padding">8dp</dimen>
+    <dimen name="btn_padding">16dp</dimen>
     <dimen name="card_height">70dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
@@ -672,6 +681,7 @@
     <string name="deck_created">dech created</string>
     <string name="deck_edited">deck edited</string>
     <string name="default_web_client_id" translatable="false">CHANGE-ME</string>
+    <string name="define_bottomdialogs"/>
     <string name="empty_card_error">empty card error</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">android.support.design.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">android.support.design.transformation.FabTransformationSheetBehavior</string>
@@ -792,6 +802,14 @@
     <string name="google_storage_bucket" translatable="false">fyp-2019.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="library_bottomdialogs_author">Javier Santos</string>
+    <string name="library_bottomdialogs_authorWebsite">https://github.com/javiersantos</string>
+    <string name="library_bottomdialogs_isOpenSource">true</string>
+    <string name="library_bottomdialogs_libraryDescription">A library that shows a customizable Material-based bottom sheet.</string>
+    <string name="library_bottomdialogs_libraryName">BottomDialogs</string>
+    <string name="library_bottomdialogs_libraryWebsite">https://github.com/javiersantos/BottomDialogs</string>
+    <string name="library_bottomdialogs_licenseId">apache_2_0</string>
+    <string name="library_bottomdialogs_repositoryLink">https://github.com/javiersantos/BottomDialogs</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="my_decks">My Decks</string>
     <string name="nav_header_desc">Navigation header</string>
@@ -2259,6 +2277,44 @@
     <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
     <item name="boxStrokeColor">?attr/colorControlActivated</item>
   </style>
+    <style name="BottomDialogs" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialogsAnimation</item>
+    </style>
+    <style name="BottomDialogsAnimation">
+        <item name="android:windowEnterAnimation">@anim/sheet_show</item>
+        <item name="android:windowExitAnimation">@anim/sheet_hide</item>
+    </style>
+    <style name="Button" parent="Button.Base"/>
+    <style name="Button.Base" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:minHeight">@dimen/btn_min_height</item>
+        <item name="android:minWidth">@dimen/btn_min_width</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/btn_padding</item>
+        <item name="android:paddingRight">@dimen/btn_padding</item>
+        <item name="android:layout_marginLeft">@dimen/btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/btn_margin</item>
+    </style>
+    <style name="Button.Flat" parent="Button.Flat.Base"/>
+    <style name="Button.Flat.Base" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/btn_flat_selector</item>
+        <item name="android:minWidth">@dimen/btn_min_width</item>
+        <item name="android:minHeight">@dimen/btn_min_height</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">@dimen/btn_flat_padding</item>
+        <item name="android:paddingRight">@dimen/btn_flat_padding</item>
+        <item name="android:layout_marginLeft">@dimen/btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/btn_margin</item>
+    </style>
     <style name="Card"/>
     <style name="CardView" parent="Base.CardView">
     </style>
@@ -2268,6 +2324,14 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
+    <style name="Dexter.Internal.Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
     <style name="FirebaseUI" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ie.fran.fyp">
+    package="ie.fran.fyp"
+    android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
 
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
@@ -20,15 +21,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
-        <activity
-            android:name=".Flashcards.FlashcardsMainActivity"
-            />
+        <activity android:name=".Flashcards.FlashcardsMainActivity" />
         <activity android:name=".Flashcards.AddDeckActivity" />
         <activity android:name=".Flashcards.ViewCardsActivity" />
-        <activity android:name=".Flashcards.CreateFlashcards">
-
-        </activity>
-        <activity android:name=".Flashcards.Cards_Display" />
         <activity android:name=".Planner.Monday.View_or_Edit" />
         <activity
             android:name=".Planner.Monday.AddTask"
@@ -59,18 +54,20 @@
             android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
         <activity
-            android:name=".Flashcards.Flashcard_Activity"
-            android:theme="@style/ThemeFlashCards" />
-        <activity
             android:name=".Focus.Focus_On_Activity"
             android:theme="@style/ThemeFocusOn" />
         <activity android:name=".Focus.services.KhanAcademyActivity" />
-
         <service
-            android:name=".Focus.services.AppBlockerService"
             android:enabled="true"
+            android:name=".Focus.services.AppBlockerService"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />
+
+        <receiver android:name=".Focus.services.PhoneBootReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
 
         <activity
             android:name=".Dashboard"
