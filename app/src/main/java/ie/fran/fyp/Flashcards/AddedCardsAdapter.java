@@ -13,7 +13,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ie.fran.fyp.AddDeckActivity;
 import ie.fran.fyp.R;
 
 public class AddedCardsAdapter extends RecyclerView.Adapter<AddedCardsAdapter.ViewHolder> {

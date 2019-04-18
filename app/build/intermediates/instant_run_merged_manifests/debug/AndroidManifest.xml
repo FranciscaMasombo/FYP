@@ -26,9 +26,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ie.fran.fyp.FlashcardsMainActivity" />
-        <activity android:name="ie.fran.fyp.AddDeckActivity" />
-        <activity android:name="ie.fran.fyp.ViewCardsActivity" />
+        <activity android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity" />
+        <activity android:name="ie.fran.fyp.Flashcards.AddDeckActivity" />
+        <activity android:name="ie.fran.fyp.Flashcards.ViewCardsActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.CreateFlashcards" >
         </activity>
         <activity android:name="ie.fran.fyp.Flashcards.Cards_Display" />

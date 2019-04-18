@@ -27,7 +27,7 @@
         android:background="@drawable/fab_incorrect"
         android:layout_weight="1"/>
 
-    <ie.fran.fyp.view.FlipLayout
+    <ie.fran.fyp.Flashcards.view.FlipLayout
         android:id="@+id/flipCards"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -38,7 +38,7 @@
 
         <include layout="@layout/flashcard_layout_card_back" />
 
-    </ie.fran.fyp.view.FlipLayout>
+    </ie.fran.fyp.Flashcards.view.FlipLayout>
 
     <Button
         android:id="@+id/fabCorrect"

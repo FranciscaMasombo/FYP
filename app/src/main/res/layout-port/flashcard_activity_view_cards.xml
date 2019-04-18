@@ -31,7 +31,7 @@
 
     </LinearLayout>
 
-    <ie.fran.fyp.view.FlipLayout
+    <ie.fran.fyp.Flashcards.view.FlipLayout
         android:id="@+id/flipCards"
         android:layout_width="match_parent"
         android:visibility="visible"
@@ -41,7 +41,7 @@
         <include layout="@layout/flashcard_layout_card_front"/>
         <include layout="@layout/flashcard_layout_card_back"/>
 
-    </ie.fran.fyp.view.FlipLayout>
+    </ie.fran.fyp.Flashcards.view.FlipLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

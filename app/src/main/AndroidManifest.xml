@@ -21,10 +21,10 @@
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
         <activity
-            android:name=".FlashcardsMainActivity"
+            android:name=".Flashcards.FlashcardsMainActivity"
             />
-        <activity android:name=".AddDeckActivity" />
-        <activity android:name=".ViewCardsActivity" />
+        <activity android:name=".Flashcards.AddDeckActivity" />
+        <activity android:name=".Flashcards.ViewCardsActivity" />
         <activity android:name=".Flashcards.CreateFlashcards">
 
         </activity>

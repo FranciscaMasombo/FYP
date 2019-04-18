@@ -24,10 +24,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import ie.fran.fyp.AddDeckActivity;
-import ie.fran.fyp.FlashcardsMainActivity;
 import ie.fran.fyp.R;
-import ie.fran.fyp.ViewCardsActivity;
 
 public class DecksAdapter extends RecyclerView.Adapter<DecksAdapter.ViewHolder> {
 

@@ -6,8 +6,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import ie.fran.fyp.R;
-import ie.fran.fyp.fragments.SearchFragment;
-import ie.fran.fyp.fragments.SharedDecksFragment;
+import ie.fran.fyp.Flashcards.fragments.SearchFragment;
+import ie.fran.fyp.Flashcards.fragments.SharedDecksFragment;
 
 
 public class MainPagerAdapter extends FragmentPagerAdapter {

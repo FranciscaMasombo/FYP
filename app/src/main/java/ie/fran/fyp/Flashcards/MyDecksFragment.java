@@ -15,9 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import ie.fran.fyp.FlashcardsMainActivity;
 import ie.fran.fyp.R;
-import ie.fran.fyp.Flashcards.DecksAdapter;
 
 public class MyDecksFragment extends Fragment {
     private DecksAdapter decksAdapter;

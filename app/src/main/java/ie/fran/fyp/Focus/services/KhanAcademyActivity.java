@@ -14,7 +14,7 @@ public class KhanAcademyActivity extends Activity {
     }
 
     public void init() {
-        String url = "http://www.khanacademy.com";
+        String url = "http://www.wit.ie";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
