@@ -28,6 +28,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="ie.fran.fyp.Planner.Thursday.AddThursday" />
+        <activity android:name="ie.fran.fyp.Planner.Sunday.AddSunday" />
+        <activity android:name="ie.fran.fyp.Planner.Saturday.AddSaturday" />
+        <activity android:name="ie.fran.fyp.Planner.Friday.AddFriday" />
         <activity android:name="ie.fran.fyp.Planner.Wednesday.AddWednesday" />
         <activity android:name="ie.fran.fyp.Planner.Tuesday.AddTaskTuesday" />
         <activity android:name="ie.fran.fyp.Planner.Sunday.Sunday" />

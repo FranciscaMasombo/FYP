@@ -1786,8 +1786,12 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_friday
+layout activity_add_saturday
+layout activity_add_sunday
 layout activity_add_task
 layout activity_add_task_tuesday
+layout activity_add_thursday
 layout activity_add_wednesday
 layout activity_cards__display
 layout activity_focus__on_
