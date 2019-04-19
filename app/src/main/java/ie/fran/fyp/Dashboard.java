@@ -17,10 +17,10 @@ import ie.fran.fyp.Flashcards.FlashcardsMainActivity;
 import ie.fran.fyp.Focus.Focus_On_Activity;
 import ie.fran.fyp.Notes.Note_Activity;
 import ie.fran.fyp.Planner.Planner_Activity;
+import ie.fran.fyp.Settings.Settings_Activity;
 import ie.fran.fyp.ToDo.ToDo_Activity;
 
-public class Dashboard extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class Dashboard extends AppCompatActivity {
     RelativeLayout focus_on, note, flashcard, planner, todo, scanner;
 
     @Override
@@ -32,14 +32,14 @@ public class Dashboard extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.addDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+//        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+//        drawer.addDrawerListener(toggle);
+//        toggle.syncState();
+//
+//        NavigationView navigationView = findViewById(R.id.nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
 
 
         // for the dashbord
@@ -101,15 +101,15 @@ public class Dashboard extends AppCompatActivity
 
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
+//    @Override
+//    public void onBackPressed() {
+//        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+//        if (drawer.isDrawerOpen(GravityCompat.START)) {
+//            drawer.closeDrawer(GravityCompat.START);
+//        } else {
+//            super.onBackPressed();
+//        }
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -127,45 +127,48 @@ public class Dashboard extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            Intent intent = new Intent(Dashboard.this, Settings_Activity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+            startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
+//    @SuppressWarnings("StatementWithEmptyBody")
+//    @Override
+//    public boolean onNavigationItemSelected(MenuItem item) {
+//        // Handle navigation view item clicks here.
+//        int id = item.getItemId();
+//
+//        if (id == R.id.focus_on) {
+//            Intent intent = new Intent(Dashboard.this, Focus_On_Activity.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+//            startActivity(intent);
+//
+//        } else if (id == R.id.note) {
+//
+//        } else if (id == R.id.flashcard) {
+//
+//        } else if (id == R.id.planner) {
+//
+//        } else if (id == R.id.todo) {
+//
+//        } else if (id == R.id.scanner) {
+//
+//        } else if (id == R.id.account) {
+//
+//        } else if (id == R.id.report) {
+//
+//        }else if (id == R.id.home) {
+//            Intent intent = new Intent(Dashboard.this, Dashboard.class);
+//            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
+//            startActivity(intent);
+//        }
+//
+//        DrawerLayout drawer = findViewById(R.id.drawer_layout);
+//        drawer.closeDrawer(GravityCompat.START);
+//        return true;
+//    }
 
-        if (id == R.id.focus_on) {
-            Intent intent = new Intent(Dashboard.this, Focus_On_Activity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-            startActivity(intent);
-
-        } else if (id == R.id.note) {
-
-        } else if (id == R.id.flashcard) {
-
-        } else if (id == R.id.planner) {
-
-        } else if (id == R.id.todo) {
-
-        } else if (id == R.id.scanner) {
-
-        } else if (id == R.id.account) {
-
-        } else if (id == R.id.report) {
-
-        }else if (id == R.id.home) {
-            Intent intent = new Intent(Dashboard.this, Dashboard.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-            startActivity(intent);
-        }
-
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
 }

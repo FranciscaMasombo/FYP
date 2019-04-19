@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ie.fran.fyp"
     android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
-
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
@@ -14,13 +16,27 @@
     <application
         android:name=".Focus.services.ServiceStarterApplication"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/StudyAid"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
+        <activity android:name=".Settings.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Settings.ResetPasswordActivity"/>
+        <activity android:name=".Settings.Settings_Activity"/>
+        <activity android:name=".Settings.SignupActivity"/>
+
+
+
         <activity android:name=".Planner.Thursday.AddThursday"></activity>
         <activity android:name=".Planner.Sunday.AddSunday" />
         <activity android:name=".Planner.Saturday.AddSaturday" />
@@ -85,11 +101,6 @@
             android:name=".Dashboard"
             android:label="StudyAid"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" />

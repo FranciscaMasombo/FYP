@@ -7,6 +7,6 @@
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="card_height">70dp</dimen>
-
+    <dimen name="logo_w_h">180dp</dimen>
     <dimen name="middle">8dp</dimen>
 </resources>

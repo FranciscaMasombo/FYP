@@ -17,9 +17,9 @@ import java.lang.Override;
 public class ViewCardsActivity_ViewBinding implements Unbinder {
   private ViewCardsActivity target;
 
-  private View view7f08009d;
+  private View view7f0800a5;
 
-  private View view7f08009e;
+  private View view7f0800a6;
 
   @UiThread
   public ViewCardsActivity_ViewBinding(ViewCardsActivity target) {
@@ -38,7 +38,7 @@ public class ViewCardsActivity_ViewBinding implements Unbinder {
     target.flipLayout = Utils.findRequiredViewAsType(source, R.id.flipCards, "field 'flipLayout'", FlipLayout.class);
     view = Utils.findRequiredView(source, R.id.fabCorrect, "field 'fabCorrect' and method 'Correct'");
     target.fabCorrect = Utils.castView(view, R.id.fabCorrect, "field 'fabCorrect'", Button.class);
-    view7f08009d = view;
+    view7f0800a5 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -47,7 +47,7 @@ public class ViewCardsActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.fabIncorrect, "field 'fabIncorrect' and method 'Incorrect'");
     target.fabIncorrect = Utils.castView(view, R.id.fabIncorrect, "field 'fabIncorrect'", Button.class);
-    view7f08009e = view;
+    view7f0800a6 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,9 +71,9 @@ public class ViewCardsActivity_ViewBinding implements Unbinder {
     target.fabCorrect = null;
     target.fabIncorrect = null;
 
-    view7f08009d.setOnClickListener(null);
-    view7f08009d = null;
-    view7f08009e.setOnClickListener(null);
-    view7f08009e = null;
+    view7f0800a5.setOnClickListener(null);
+    view7f0800a5 = null;
+    view7f0800a6.setOnClickListener(null);
+    view7f0800a6 = null;
   }
 }
