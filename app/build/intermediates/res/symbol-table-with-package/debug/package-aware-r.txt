@@ -1612,7 +1612,6 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id select_color
 id select_dialog_listview
 id selected
 id send_code

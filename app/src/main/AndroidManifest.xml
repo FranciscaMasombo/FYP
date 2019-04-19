@@ -24,7 +24,6 @@
         <activity android:name=".Flashcards.FlashcardsMainActivity" />
         <activity android:name=".Flashcards.AddDeckActivity" />
         <activity android:name=".Flashcards.ViewCardsActivity" />
-        <activity android:name=".Planner.Monday.View_or_Edit" />
         <activity
             android:name=".Planner.Monday.AddTask"
             android:theme="@style/ThemePlanner" />

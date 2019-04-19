@@ -30,9 +30,6 @@ import ie.fran.fyp.Start;
 
 public class Note_Activity extends AppCompatActivity {
 
-
-    //tODO grid view layourt  rose and co
-    //todo progress bar
     FirebaseAuth fAuth;
     RecyclerView mNotesList;
     GridLayoutManager gridLayoutManager;

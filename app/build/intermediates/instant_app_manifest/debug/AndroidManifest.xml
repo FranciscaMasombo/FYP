@@ -31,7 +31,6 @@
         <activity android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.AddDeckActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.ViewCardsActivity" />
-        <activity android:name="ie.fran.fyp.Planner.Monday.View_or_Edit" />
         <activity
             android:name="ie.fran.fyp.Planner.Monday.AddTask"
             android:theme="@style/ThemePlanner" />

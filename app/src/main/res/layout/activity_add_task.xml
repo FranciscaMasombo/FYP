@@ -232,7 +232,7 @@
         android:textSize="26sp" />
 
     <Button
-        android:id="@+id/select_color"
+        android:id="@+id/delete"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginLeft="16dp"

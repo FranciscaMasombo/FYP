@@ -7,28 +7,37 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
 import ie.fran.fyp.R;
+import ie.fran.fyp.Start;
 
 public class Monday extends AppCompatActivity {
     TextView titlepage,ttittle, ddec, lloc, ttime, ddate;
 
+    FirebaseAuth fAuth;
     DatabaseReference reference;
-    RecyclerView ourdoes;
-    ArrayList<Monday_Model> list;
-    Monday_Adapter monday_adapter;
+
+    RecyclerView recyclerView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,38 +46,101 @@ public class Monday extends AppCompatActivity {
 
         titlepage = findViewById(R.id.titlepage);
 
-        ourdoes = findViewById(R.id.mondayList);
-        ourdoes.setLayoutManager(new LinearLayoutManager(this));
-        list = new ArrayList<Monday_Model>();
+        recyclerView = findViewById(R.id.mondayList);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // get data from firebase
-        reference = FirebaseDatabase.getInstance().getReference().child("Week");
-        reference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                // set code to retrive data and replace layout
-                for(DataSnapshot dataSnapshot1: dataSnapshot.getChildren())
-                {
-                    Monday_Model p = dataSnapshot1.getValue(Monday_Model.class);
-                    list.add(p);
-                }
-                monday_adapter = new Monday_Adapter(Monday.this, list);
 
-                ourdoes.setAdapter(monday_adapter);
-                monday_adapter.notifyDataSetChanged();
-                Log.e("myTag", "data");
+        fAuth = FirebaseAuth.getInstance();
+        if (fAuth.getCurrentUser() != null) {
+            reference = FirebaseDatabase
+                    .getInstance().getReference()
+                    .child("Monday").child(fAuth.getCurrentUser().getUid());
+        }
 
-            }
+        updateUI();
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-                // set code to show an error
-                Toast.makeText(getApplicationContext(), "No Data", Toast.LENGTH_SHORT).show();
 
-            }
-        });
+        loadData();
 
     }
+    @Override
+    public void onStart() {
+        super.onStart();
+
+    }
+    private void loadData() {
+        Query query = reference.orderByValue();
+        FirebaseRecyclerOptions<Monday_Model> options
+                = new FirebaseRecyclerOptions.Builder<Monday_Model>()
+                .setQuery(query, Monday_Model.class)
+                .build();
+
+        FirebaseRecyclerAdapter firebaseRecyclerAdapter
+                = new FirebaseRecyclerAdapter< Monday_Model, MondayViewHolder>(options) {
+
+            @NonNull
+            @Override
+            public MondayViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+                View view = LayoutInflater.from(viewGroup.getContext())
+                        .inflate(R.layout.item_planner_task, viewGroup, false);
+                return new MondayViewHolder(view);
+            }
+
+            @Override
+            protected void onBindViewHolder(@NonNull final MondayViewHolder viewHolder, int position, @NonNull Monday_Model model) {
+                final String noteId = getRef(position).getKey();
+                reference.child(noteId).addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        if (dataSnapshot.hasChild("title")) {
+                            String titlemon = dataSnapshot.child("title").getValue().toString();
+                            String desc = dataSnapshot.child("desc").getValue().toString();
+                            String loc = dataSnapshot.child("loc").getValue().toString();
+                            String date = dataSnapshot.child("date").getValue().toString();
+                            String time = dataSnapshot.child("time").getValue().toString();
+
+                            viewHolder.settitlemon(titlemon);
+                            viewHolder.setdesc(desc);
+                            viewHolder.setloc(loc);
+                            viewHolder.setdate(date);
+                            viewHolder.settime(time);
+
+                            viewHolder.weekCard.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    Intent intent = new Intent(Monday.this, AddTask.class);
+                                    intent.putExtra("noteId", noteId);
+                                    startActivity(intent);
+                                }
+                            });
+
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+                });
+            }
+        };
+        recyclerView.setAdapter(firebaseRecyclerAdapter);
+        firebaseRecyclerAdapter.startListening();
+    }
+
+    private void updateUI() {
+
+        if (fAuth.getCurrentUser() != null) {
+            Log.i("MainActivity", "fAuth != null");
+        } else {
+            Intent startIntent = new Intent(Monday.this, Start.class);
+            startActivity(startIntent);
+            finish();
+            Log.i("MainActivity", "fAuth == null");
+        }
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
@@ -83,7 +155,7 @@ public class Monday extends AppCompatActivity {
         super.onOptionsItemSelected(item);
 
         switch (item.getItemId()) {
-            case R.id.main_new_task_btn:
+            case R.id.add_new_folder:
                 Intent newIntent = new Intent(Monday.this, AddTask.class);
                 startActivity(newIntent);
                 break;

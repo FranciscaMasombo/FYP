@@ -9,26 +9,14 @@ public class Monday_Model {
     String loc;
     String date;
     String time;
-    String keydoes;
 
-    public Monday_Model(String time,String desc,String loc,String date,String titlemon, String keydoes) {
+    public Monday_Model(String time,String desc,String loc,String date,String titlemon) {
         this.time = time;
         this.desc = desc;
         this.loc = loc;
         this.date = date;
         this.titlemon = titlemon;
-        this.keydoes = keydoes;
     }
-
-    public String getKeydoes() {
-        return keydoes;
-    }
-
-    public void setKeydoes(String keydoes) {
-        this.keydoes = keydoes;
-    }
-
-
     public Monday_Model() {
     }
 
