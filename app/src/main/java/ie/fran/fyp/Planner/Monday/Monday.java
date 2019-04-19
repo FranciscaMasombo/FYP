@@ -55,7 +55,8 @@ public class Monday extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             reference = FirebaseDatabase
                     .getInstance().getReference()
-                    .child("Monday").child(fAuth.getCurrentUser().getUid());
+                    .child("Monday")
+                    .child(fAuth.getCurrentUser().getUid());
         }
 
         updateUI();
@@ -71,6 +72,7 @@ public class Monday extends AppCompatActivity {
     }
     private void loadData() {
         Query query = reference.orderByValue();
+
         FirebaseRecyclerOptions<Monday_Model> options
                 = new FirebaseRecyclerOptions.Builder<Monday_Model>()
                 .setQuery(query, Monday_Model.class)

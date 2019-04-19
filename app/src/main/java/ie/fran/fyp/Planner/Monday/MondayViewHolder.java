@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 import ie.fran.fyp.R;
 
-class MondayViewHolder extends RecyclerView.ViewHolder {
+public class MondayViewHolder extends RecyclerView.ViewHolder {
 
-    CardView weekCard;
+    public CardView weekCard;
     TextView text_titlemon;
     TextView text_desc;
     TextView text_loc;

@@ -1258,6 +1258,8 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_person_black_24dp
 drawable input_
+drawable input_planner
+drawable input_planner_text
 drawable input_them
 drawable input_two
 drawable list_512
@@ -1663,6 +1665,8 @@ id task_delete
 id task_icon
 id task_t
 id task_title
+id tdate
+id tdesc
 id text
 id text2
 id textSpacerNoButtons
@@ -1688,6 +1692,7 @@ id title_template
 id titledoes
 id titlemon
 id titlepage
+id tloc
 id todo
 id toolbar
 id top
@@ -1702,6 +1707,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id trouble_signing_in
 id trouble_signing_in_possible_fixes
+id ttime
+id ttitlemon
 id tuesday
 id tvAuthor
 id tvBack
@@ -1716,7 +1723,6 @@ id tvTitle
 id uniform
 id unlabeled
 id up
-id update
 id useLogo
 id view_offset_helper
 id visible
@@ -1781,16 +1787,23 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_task
+layout activity_add_task_tuesday
+layout activity_add_wednesday
 layout activity_cards__display
 layout activity_focus__on_
+layout activity_friday
 layout activity_main
 layout activity_monday
 layout activity_new_task
 layout activity_note_
 layout activity_planner
+layout activity_saturday
 layout activity_scanner_
+layout activity_sunday
+layout activity_thursday
 layout activity_to_do_
-layout activity_view_or__edit
+layout activity_tuesday
+layout activity_wednesday
 layout app_bar_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

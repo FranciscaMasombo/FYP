@@ -21,6 +21,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
+        <activity android:name=".Planner.Wednesday.AddWednesday"></activity>
+        <activity android:name=".Planner.Tuesday.AddTaskTuesday" />
+        <activity android:name=".Planner.Sunday.Sunday" />
+        <activity android:name=".Planner.Saturday.Saturday" />
+        <activity android:name=".Planner.Friday.Friday" />
+        <activity android:name=".Planner.Thursday.Thursday" />
+        <activity android:name=".Planner.Wednesday.Wednesday" />
+        <activity android:name=".Planner.Tuesday.Tuesday" />
         <activity android:name=".Flashcards.FlashcardsMainActivity" />
         <activity android:name=".Flashcards.AddDeckActivity" />
         <activity android:name=".Flashcards.ViewCardsActivity" />
@@ -56,15 +64,16 @@
             android:name=".Focus.Focus_On_Activity"
             android:theme="@style/ThemeFocusOn" />
         <activity android:name=".Focus.services.KhanAcademyActivity" />
+
         <service
-            android:enabled="true"
             android:name=".Focus.services.AppBlockerService"
+            android:enabled="true"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />
 
         <receiver android:name=".Focus.services.PhoneBootReciever">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 

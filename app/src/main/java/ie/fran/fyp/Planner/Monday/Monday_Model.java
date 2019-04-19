@@ -20,19 +20,19 @@ public class Monday_Model {
     public Monday_Model() {
     }
 
-    public String getTime() {
+    public String getTTime() {
         return time;
     }
 
-    public void setTime(String time) {
+    public void setTTime(String time) {
         this.time = time;
     }
 
-    public String getDate() {
+    public String getDDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDDate(String date) {
         this.date = date;
     }
 

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/fui_bgGoogle"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
     tools:context=".Planner.Monday.AddTask">
 
     <LinearLayout
@@ -30,10 +29,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="Add a new task to Monday"
+                    android:text=" Monday"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="30sp" />
+                    android:textSize="36sp" />
 
                 <View
                     android:layout_width="match_parent"
@@ -50,9 +49,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="-70dp"
+        android:layout_marginTop="-50dp"
         android:layout_marginRight="16dp"
         android:background="@drawable/list_item"
+        android:backgroundTint="@color/white"
         android:orientation="vertical"
         android:paddingTop="22dp"
         android:paddingBottom="22dp">
@@ -69,16 +69,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:text="Add Title"
                 android:maxLength="40"
-                android:textColor="@color/darkblue_dark"
+                android:text="Add Title"
+                android:textColor="#FF5722"
                 android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/titlemon"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@drawable/input_two"
+                android:background="@drawable/input_planner"
                 android:hint="Title"
                 android:inputType="text"
                 android:paddingLeft="12dp"
@@ -102,14 +102,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:text="Description"
-                android:textColor="@color/darkblue_dark"
+                android:textColor="#FF5722"
                 android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/desc"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@drawable/input_two"
+                android:background="@drawable/input_planner"
                 android:hint="What is happening?"
                 android:inputType="text"
                 android:maxLength="40"
@@ -133,14 +133,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="Location"
-                android:textColor="@color/darkblue_dark"
+                android:textColor="#FF5722"
                 android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/loc"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:background="@drawable/input_two"
+                android:background="@drawable/input_planner"
                 android:hint="Where?"
                 android:inputType="text"
                 android:maxLength="40"
@@ -170,18 +170,19 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:text="From"
-                    android:textColor="@color/darkblue_dark"
+                    android:textColor="#FF5722"
                     android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/date"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:background="@drawable/input_two"
-                    android:hint="Select date "
+                    android:background="@drawable/input_planner"
+                    android:hint="Select tdate "
                     android:paddingLeft="12dp"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textColorHint="#B5B5B5" />
+                    android:textColorHint="#B5B5B5"
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -200,49 +201,57 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="10dp"
                     android:text="Time"
-                    android:textColor="@color/darkblue_dark"
+                    android:textColor="#FF5722"
                     android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/time"
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:background="@drawable/input_two"
-                    android:hint="Select time "
+                    android:background="@drawable/input_planner"
+                    android:hint="Select ttime "
                     android:paddingLeft="12dp"
                     android:textColor="@color/colorPrimaryDark"
-                    android:textColorHint="#B5B5B5" />
+                    android:textColorHint="#B5B5B5"
+                    android:textSize="18sp" />
 
             </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/save"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="16dp"
-        android:background="@drawable/button_cancel"
-        android:text="Save"
-        android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
-        android:textSize="26sp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/delete"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginRight="16dp"
-        android:background="@drawable/button_create"
-        android:text="Select Color"
-        android:textAllCaps="false"
-        android:textColor="#FFF"
-        android:textSize="26sp" />
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_cancel"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/button_create"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="26sp" />
+
+    </LinearLayout>
 
 
 </LinearLayout>

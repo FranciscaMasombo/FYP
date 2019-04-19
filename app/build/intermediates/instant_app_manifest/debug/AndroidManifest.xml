@@ -28,6 +28,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="ie.fran.fyp.Planner.Wednesday.AddWednesday" />
+        <activity android:name="ie.fran.fyp.Planner.Tuesday.AddTaskTuesday" />
+        <activity android:name="ie.fran.fyp.Planner.Sunday.Sunday" />
+        <activity android:name="ie.fran.fyp.Planner.Saturday.Saturday" />
+        <activity android:name="ie.fran.fyp.Planner.Friday.Friday" />
+        <activity android:name="ie.fran.fyp.Planner.Thursday.Thursday" />
+        <activity android:name="ie.fran.fyp.Planner.Wednesday.Wednesday" />
+        <activity android:name="ie.fran.fyp.Planner.Tuesday.Tuesday" />
         <activity android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.AddDeckActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.ViewCardsActivity" />

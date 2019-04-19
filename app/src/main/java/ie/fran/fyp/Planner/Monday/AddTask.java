@@ -65,8 +65,8 @@ public class AddTask extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+//        getSupportActionBar().setDisplayShowHomeEnabled(true);
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         fAuth = FirebaseAuth.getInstance();
         reference = FirebaseDatabase.getInstance().getReference()
@@ -100,7 +100,7 @@ public class AddTask extends AppCompatActivity {
                 String datee = date.getText().toString().trim();
                 String timee = time.getText().toString().trim();
 
-                if (!TextUtils.isEmpty(title)
+                if (       !TextUtils.isEmpty(title)
                         && !TextUtils.isEmpty(descip)
                         && !TextUtils.isEmpty(loca)
                         && !TextUtils.isEmpty(datee)
@@ -196,11 +196,16 @@ public class AddTask extends AppCompatActivity {
                             && dataSnapshot.hasChild("date")
                             && dataSnapshot.hasChild("time")
                     ) {
-                        String titleS = dataSnapshot.child("title").getValue().toString();
-                        String descS = dataSnapshot.child("desc").getValue().toString();
-                        String locS = dataSnapshot.child("loc").getValue().toString();
-                        String dateS = dataSnapshot.child("date").getValue().toString();
-                        String timeS = dataSnapshot.child("time").getValue().toString();
+                        String titleS = dataSnapshot.child("title")
+                                .getValue().toString();
+                        String descS = dataSnapshot.child("desc")
+                                .getValue().toString();
+                        String locS = dataSnapshot.child("loc")
+                                .getValue().toString();
+                        String dateS = dataSnapshot.child("date")
+                                .getValue().toString();
+                        String timeS = dataSnapshot.child("time")
+                                .getValue().toString();
 
                         titlemon.setText(titleS);
                         desc.setText(descS);
@@ -237,10 +242,10 @@ public class AddTask extends AppCompatActivity {
                 final DatabaseReference newTaskref = reference.push();
                 final Map noteMap = new HashMap();
                 noteMap.put("title", title);
-                noteMap.put("desc", title);
-                noteMap.put("loc", title);
-                noteMap.put("date", title);
-                noteMap.put("time", title);
+                noteMap.put("desc", descip);
+                noteMap.put("loc", loca);
+                noteMap.put("date", datee);
+                noteMap.put("time", timee);
                 Thread mainThread = new Thread(new Runnable() {
                     @Override
                     public void run() {
