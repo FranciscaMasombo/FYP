@@ -2,6 +2,7 @@ package ie.fran.fyp.Planner.Friday;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -235,6 +236,9 @@ public class AddFriday extends AppCompatActivity {
                 updateMap.put("time", time.getText().toString().trim());
 
                 reference.child(noteID).updateChildren(updateMap);
+                Intent intent = new Intent(AddFriday.this, Friday.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
             } else {
                 // CREATE A NEW
                 final DatabaseReference newTaskref = reference.push();
@@ -252,6 +256,9 @@ public class AddFriday extends AppCompatActivity {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(AddFriday.this, "added to database", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(AddFriday.this, Friday.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
                                 } else {
                                     Toast.makeText(AddFriday.this, "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                 }

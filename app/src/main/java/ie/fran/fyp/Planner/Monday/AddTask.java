@@ -238,7 +238,7 @@ public class AddTask extends AppCompatActivity {
                 reference.child(noteID).updateChildren(updateMap);
 
                 Intent intent = new Intent(AddTask.this, Monday.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intent);
             } else {
                 // CREATE A NEW
@@ -258,7 +258,7 @@ public class AddTask extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(AddTask.this, "Added to database", Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(AddTask.this, Monday.class);
-                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                     startActivity(intent);
                                 } else {
                                     Toast.makeText(AddTask.this, "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
