@@ -1,5 +1,8 @@
 package ie.fran.fyp.ToDo;
 
+import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -9,8 +12,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,7 +27,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Random;
 
@@ -34,12 +44,19 @@ public class NewTaskAct extends AppCompatActivity {
     private FirebaseAuth fAuth;
     private String i;
     private boolean isExist;
-    TextView titlepage, addtitle, adddesc, adddate;
-    EditText etitledoes, edescEdoes, edateEdoes;
+    TextView titlepage, addtitle, adddesc, adddate, edateEdoes;
+    EditText etitledoes, edescEdoes;
     Button btnSaveTask, remove;
     DatabaseReference reference;
     Integer doesNum = new Random().nextInt();
     String keydoes = Integer.toString(doesNum);
+    Calendar c = Calendar.getInstance();
+    DatePickerDialog dpd;
+    TimePickerDialog timePickerDialog;
+    int currentHour;
+    int currentMinute;
+    String amPm;
+    private int mYear, mMonth, mDay, mHour, mMinute;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,7 +120,7 @@ public class NewTaskAct extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
-                            Toast.makeText(NewTaskAct.this, "Note Deleted", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(NewTaskAct.this, "Task Complete", Toast.LENGTH_SHORT).show();
                             i = "no";
                             finish();
                         } else {
@@ -114,6 +131,90 @@ public class NewTaskAct extends AppCompatActivity {
                 });
             }
         });
+
+        final Calendar myCalendar = Calendar.getInstance();
+        final DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener()
+        {
+            @Override
+            public void onDateSet(DatePicker view, int year, int monthOfYear,
+                                  int dayOfMonth) {
+                // TODO Auto-generated method stub
+                myCalendar.set(Calendar.YEAR, year);
+                myCalendar.set(Calendar.MONTH, monthOfYear);
+                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+                // myCalendar.add(Calendar.DATE, 0);
+                String myFormat = "yyyy / MM / dd"; //In which you need put here
+                SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+                edateEdoes.setText(sdf.format(myCalendar.getTime()));
+            }
+
+
+        };
+
+    edateEdoes.setOnClickListener(new View.OnClickListener() {
+
+        @Override
+        public void onClick(View view) {
+            // TODO Auto-generated method stub
+            final Calendar c = Calendar.getInstance();
+            mYear = c.get(Calendar.YEAR);
+            mMonth = c.get(Calendar.MONTH);
+            mDay = c.get(Calendar.DAY_OF_MONTH);
+
+            // Launch Date Picker Dialog
+            DatePickerDialog dpd = new DatePickerDialog(NewTaskAct.this,
+                    new DatePickerDialog.OnDateSetListener() {
+
+                        @Override
+                        public void onDateSet(DatePicker view, int year,
+                                              int monthOfYear, int dayOfMonth) {
+                            // Display Selected date in textbox
+
+                            if (year < mYear)
+                                view.updateDate(mYear,mMonth,mDay);
+
+                            if (monthOfYear < mMonth && year == mYear)
+                                view.updateDate(mYear,mMonth,mDay);
+
+                            if (dayOfMonth < mDay && year == mYear && monthOfYear == mMonth)
+                                view.updateDate(mYear,mMonth,mDay);
+
+                            edateEdoes.setText(dayOfMonth + "/"
+                                    + (monthOfYear + 1) + "/" + year);
+
+                        }
+                    }, mYear, mMonth, mDay);
+            dpd.getDatePicker().setMinDate(System.currentTimeMillis());
+            dpd.show();
+
+        }
+    });
+//        edateEdoes.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View view) {
+////        currentHour = c.get(Calendar.HOUR_OF_DAY);
+////        currentMinute = c.get(Calendar.MINUTE);
+//// Get Current Date
+//
+//                mYear = c.get(Calendar.YEAR);
+//                mMonth = c.get(Calendar.MONTH);
+//                mDay = c.get(Calendar.DAY_OF_MONTH);
+//                timePickerDialog = new TimePickerDialog(NewTaskAct.this, new TimePickerDialog.OnTimeSetListener() {
+//                    @Override
+//                    public void onTimeSet(TimePicker timePicker, int hourOfDay, int minutes) {
+//                        if (hourOfDay >= 12) {
+//                            amPm = "PM";
+//                        } else {
+//                            amPm = "AM";
+//                        }
+//                        edateEdoes.setText(String.format("%02d:%02d", hourOfDay, minutes) + amPm);
+//                    }
+//                }, currentHour, currentMinute, false);
+//
+//                timePickerDialog.show();
+//            }
+//        });
 
 
         // import font
@@ -177,7 +278,9 @@ public class NewTaskAct extends AppCompatActivity {
                 //updateMap.put("timestamp", ServerValue.TIMESTAMP);
 
                 reference.child(i).updateChildren(updateMap);
-
+                Intent intent = new Intent(NewTaskAct.this, ToDo_Activity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 Toast.makeText(this, "Note updated", Toast.LENGTH_SHORT).show();
             } else {
                 // CREATE A NEW NOTE
@@ -197,6 +300,9 @@ public class NewTaskAct extends AppCompatActivity {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(NewTaskAct.this, "Note added to database", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(NewTaskAct.this, ToDo_Activity.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
                                 } else {
                                     Toast.makeText(NewTaskAct.this, "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                 }

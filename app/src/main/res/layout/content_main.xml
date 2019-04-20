@@ -266,15 +266,15 @@
 
                         <ImageView
                             android:id="@+id/imgViewtodo"
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
+                            android:layout_width="46dp"
+                            android:layout_height="34dp"
                             android:layout_centerHorizontal="true"
                             android:adjustViewBounds="true"
+                            android:background="@drawable/baseline_view_list_white_18dp"
                             android:backgroundTint="@color/white"
                             android:contentDescription="@string/todo"
                             android:padding="8dp"
                             android:scaleType="centerInside"
-                            android:src="@drawable/baseline_list_black_18dp"
                             android:tint="@color/white" />
 
                         <TextView

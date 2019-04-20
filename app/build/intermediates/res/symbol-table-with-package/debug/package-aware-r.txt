@@ -1187,6 +1187,9 @@ drawable baseline_subject_black_18
 drawable baseline_subject_black_24
 drawable baseline_subject_black_36
 drawable baseline_subject_black_48
+drawable baseline_view_list_white_18dp
+drawable baseline_view_list_white_24dp
+drawable baseline_view_list_white_36dp
 drawable baseline_view_week_24
 drawable baseline_view_week_black_18
 drawable baseline_view_week_black_24
@@ -1712,6 +1715,7 @@ id textView
 id textView1
 id textView2
 id textView3
+id textView4
 id text_input_password_toggle
 id textinput_counter
 id textinput_error

@@ -1,5 +1,6 @@
 package ie.fran.fyp.Notes;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -26,6 +27,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import ie.fran.fyp.R;
+import ie.fran.fyp.ToDo.NewTaskAct;
 
 public class NewNote extends AppCompatActivity {
     private Button btnCreate;
@@ -128,7 +130,9 @@ public class NewNote extends AppCompatActivity {
                 //updateMap.put("timestamp", ServerValue.TIMESTAMP);
 
                 fNotesDatabase.child(noteID).updateChildren(updateMap);
-
+                Intent intent = new Intent(NewNote.this, Note_Activity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
                 Toast.makeText(this, "Note updated", Toast.LENGTH_SHORT).show();
             } else {
                 // CREATE A NEW NOTE
@@ -147,6 +151,9 @@ public class NewNote extends AppCompatActivity {
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
                                     Toast.makeText(NewNote.this, "Note added to database", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(NewNote.this, Note_Activity.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
                                 } else {
                                     Toast.makeText(NewNote.this, "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                 }

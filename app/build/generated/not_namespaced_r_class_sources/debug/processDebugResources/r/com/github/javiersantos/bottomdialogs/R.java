@@ -513,11 +513,11 @@ public final class R {
         public static final int abc_textfield_search_default_mtrl_alpha = 0x7f070058;
         public static final int abc_textfield_search_material = 0x7f070059;
         public static final int abc_vector_test = 0x7f07005a;
-        public static final int btn_flat_normal = 0x7f0700a5;
-        public static final int btn_flat_pressed = 0x7f0700a6;
-        public static final int btn_flat_selector = 0x7f0700a7;
-        public static final int notification_template_icon_bg = 0x7f07010b;
-        public static final int shadow = 0x7f070112;
+        public static final int btn_flat_normal = 0x7f0700a8;
+        public static final int btn_flat_pressed = 0x7f0700a9;
+        public static final int btn_flat_selector = 0x7f0700aa;
+        public static final int notification_template_icon_bg = 0x7f07010e;
+        public static final int shadow = 0x7f070115;
     }
     public static final class id {
         private id() {}
@@ -617,15 +617,15 @@ public final class R {
         public static final int text = 0x7f080188;
         public static final int text2 = 0x7f080189;
         public static final int textSpacerNoButtons = 0x7f08018a;
-        public static final int time = 0x7f080197;
-        public static final int title = 0x7f08019a;
-        public static final int title_template = 0x7f08019d;
-        public static final int top = 0x7f0801a4;
-        public static final int topPanel = 0x7f0801a5;
-        public static final int up = 0x7f0801bf;
-        public static final int useLogo = 0x7f0801c0;
-        public static final int withText = 0x7f0801c9;
-        public static final int wrap_content = 0x7f0801cb;
+        public static final int time = 0x7f080198;
+        public static final int title = 0x7f08019b;
+        public static final int title_template = 0x7f08019e;
+        public static final int top = 0x7f0801a5;
+        public static final int topPanel = 0x7f0801a6;
+        public static final int up = 0x7f0801c0;
+        public static final int useLogo = 0x7f0801c1;
+        public static final int withText = 0x7f0801ca;
+        public static final int wrap_content = 0x7f0801cc;
     }
     public static final class integer {
         private integer() {}
