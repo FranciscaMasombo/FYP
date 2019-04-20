@@ -1200,12 +1200,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-hdpi\\baseline_open_in_browser_black_18.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_edit_24.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\baseline_edit_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_baseline_list_black_18.png.flat",
@@ -2628,6 +2628,10 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xhdpi\\baseline_delete_forever_white_18.png"
     },
     {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color_ss.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\color\\ss.xml"
+    },
+    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_people_24.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\baseline_people_24.xml"
     },
@@ -3034,6 +3038,10 @@
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app1.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\app1.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
@@ -3470,6 +3478,10 @@
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\animator_design_fab_show_motion_spec.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\animator\\design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",

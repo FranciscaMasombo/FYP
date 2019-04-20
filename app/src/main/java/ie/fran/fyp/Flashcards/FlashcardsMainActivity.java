@@ -16,7 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import ie.fran.fyp.R;
 
-public class FlashcardsMainActivity extends BaseActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class FlashcardsMainActivity extends BaseActivity {
 
     public static final String KEY_KEY = "KEY_KEY";
     public static final String KEY_DECK = "KEY_DECK";
@@ -49,10 +49,10 @@ public class FlashcardsMainActivity extends BaseActivity implements NavigationVi
             }
         });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//
+//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+//        navigationView.setNavigationItemSelectedListener(this);
 
     }
 
@@ -65,23 +65,23 @@ public class FlashcardsMainActivity extends BaseActivity implements NavigationVi
             super.onBackPressed();
         }
     }
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.logout) {
-            FirebaseAuth.getInstance().signOut();
-            startActivity(new Intent(this, Flashcard_LoginActivity.class));
-            finish();
-        } else if (id == R.id.about) {
-            Toast.makeText(this, "", Toast.LENGTH_LONG).show();
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
+//
+//    @SuppressWarnings("StatementWithEmptyBody")
+//    @Override
+//    public boolean onNavigationItemSelected(MenuItem item) {
+//        // Handle navigation view item clicks here.
+//        int id = item.getItemId();
+//
+//        if (id == R.id.logout) {
+//            FirebaseAuth.getInstance().signOut();
+//            startActivity(new Intent(this, Flashcard_LoginActivity.class));
+//            finish();
+//        } else if (id == R.id.about) {
+//            Toast.makeText(this, "", Toast.LENGTH_LONG).show();
+//        }
+//
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        drawer.closeDrawer(GravityCompat.START);
+//        return true;
+//    }
 }
