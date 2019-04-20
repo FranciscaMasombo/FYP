@@ -19,7 +19,7 @@
 
     <style name="ThemeFocusOn" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/RED</item>
-        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorPrimaryDark">@color/RED</item>
         <item name="colorAccent">@color/RED</item>
         <item name="windowActionBar">true</item>
     </style>

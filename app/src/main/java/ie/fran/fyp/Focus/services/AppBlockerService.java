@@ -76,7 +76,7 @@ public class AppBlockerService extends Service {
     public void onCreate() {
         super.onCreate();
           //redirect
-        lockIntent = new Intent(this, KhanAcademyActivity.class);
+        lockIntent = new Intent(this, Redirect.class);
         lockIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         //Root Detector

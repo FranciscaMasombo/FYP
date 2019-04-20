@@ -15,9 +15,9 @@ import java.lang.Override;
 public class Flashcard_LoginActivity_ViewBinding implements Unbinder {
   private Flashcard_LoginActivity target;
 
-  private View view7f080047;
-
   private View view7f080046;
+
+  private View view7f080045;
 
   @UiThread
   public Flashcard_LoginActivity_ViewBinding(Flashcard_LoginActivity target) {
@@ -32,7 +32,7 @@ public class Flashcard_LoginActivity_ViewBinding implements Unbinder {
     target.etEmail = Utils.findRequiredViewAsType(source, R.id.etEmail, "field 'etEmail'", EditText.class);
     target.etPassword = Utils.findRequiredViewAsType(source, R.id.etPassword, "field 'etPassword'", EditText.class);
     view = Utils.findRequiredView(source, R.id.btnRegister, "method 'registerClick'");
-    view7f080047 = view;
+    view7f080046 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -40,7 +40,7 @@ public class Flashcard_LoginActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.btnLogin, "method 'loginClick'");
-    view7f080046 = view;
+    view7f080045 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -59,9 +59,9 @@ public class Flashcard_LoginActivity_ViewBinding implements Unbinder {
     target.etEmail = null;
     target.etPassword = null;
 
-    view7f080047.setOnClickListener(null);
-    view7f080047 = null;
     view7f080046.setOnClickListener(null);
     view7f080046 = null;
+    view7f080045.setOnClickListener(null);
+    view7f080045 = null;
   }
 }

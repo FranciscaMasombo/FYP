@@ -49,17 +49,17 @@ public class TimerFragment extends Fragment  {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_timer, container, false);
 
-        blocker = view.findViewById(R.id.blocker);
-        if (blocker != null) {
-            if (hasAccessGranted()) {
-                blocker.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                        Pref.edit().putBoolean(PREF_ENABLED, isChecked).apply();
-                    }
-                });
-            }
-        }
+//        blocker = view.findViewById(R.id.blocker);
+//        if (blocker != null) {
+//            if (hasAccessGranted()) {
+//                blocker.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//                    @Override
+//                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                        Pref.edit().putBoolean(PREF_ENABLED, isChecked).apply();
+//                    }
+//                });
+//            }
+//        }
 
 
         startButton = view.findViewById(R.id.startButton);

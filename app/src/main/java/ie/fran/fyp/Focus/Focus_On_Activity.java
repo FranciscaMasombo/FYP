@@ -42,9 +42,6 @@ public class Focus_On_Activity extends AppCompatActivity {
                     case R.id.nav_timer:
                         selectedFragment = new TimerFragment();
                         break;
-                    case R.id.nav_profile:
-                        new Focus_On_Activity();
-                        break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         selectedFragment).commit();

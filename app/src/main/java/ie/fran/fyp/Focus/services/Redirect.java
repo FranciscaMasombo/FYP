@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
-public class KhanAcademyActivity extends Activity {
+public class Redirect extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

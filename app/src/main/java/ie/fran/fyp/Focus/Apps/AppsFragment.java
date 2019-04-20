@@ -60,6 +60,7 @@ public class AppsFragment extends Fragment implements SearchView.OnQueryTextList
 
      @SuppressLint("StaticFieldLeak")
      public void loadApplications(final Context context){
+
         new AsyncTask<Void, Void, Void>() {
             @Override
             protected Void doInBackground(Void... voids) {

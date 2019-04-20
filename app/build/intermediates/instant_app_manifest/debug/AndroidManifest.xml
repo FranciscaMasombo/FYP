@@ -89,7 +89,7 @@
         <activity
             android:name="ie.fran.fyp.Focus.Focus_On_Activity"
             android:theme="@style/ThemeFocusOn" />
-        <activity android:name="ie.fran.fyp.Focus.services.KhanAcademyActivity" />
+        <activity android:name="ie.fran.fyp.Focus.services.Redirect" />
 
         <service
             android:name="ie.fran.fyp.Focus.services.AppBlockerService"

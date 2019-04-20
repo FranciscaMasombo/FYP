@@ -66,8 +66,8 @@
     <LinearLayout
 
         android:id="@+id/linearLayout5"
-        android:layout_width="395dp"
-        android:layout_height="60dp"
+        android:layout_width="414dp"
+        android:layout_height="69dp"
         android:layout_marginTop="120dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
@@ -89,12 +89,11 @@
                 android:id="@+id/monday"
                 android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.70"
+                android:layout_weight="1"
                 android:background="@drawable/list_item"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?attr/selectableItemBackground"
-                android:paddingEnd="10dp">
+                android:foreground="?attr/selectableItemBackground">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -118,8 +117,8 @@
     <!--Tuesday-->
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="395dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -138,18 +137,17 @@
 
             <RelativeLayout
                 android:id="@+id/tuesday"
-                android:layout_width="wrap_content"
+                android:layout_width="80dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.70"
+                android:layout_weight="1"
                 android:background="@drawable/list_item"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?attr/selectableItemBackground"
-                android:paddingEnd="10dp">
+                android:foreground="?attr/selectableItemBackground">
 
                 <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="289dp"
+                    android:layout_height="48dp"
                     android:layout_centerInParent="true">
 
                     <TextView
@@ -170,8 +168,8 @@
     <!--wenesday -->
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="395dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="69dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
         app:layout_constraintEnd_toEndOf="parent"
