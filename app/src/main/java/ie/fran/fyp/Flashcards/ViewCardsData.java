@@ -1,9 +1,5 @@
 package ie.fran.fyp.Flashcards;
 
-/**
- * Created by Brendan on 12/11/16.
- */
-
 public class ViewCardsData {
 
     private static ViewCardsData instance = null;

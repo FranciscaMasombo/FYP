@@ -9,9 +9,10 @@
 
     <TextView
         android:id="@+id/tvFront"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:textSize="35sp"
-        android:text="@string/front" />
+        android:layout_height="wrap_content"
+        android:text="@string/front"
+        android:textColor="@color/input_login"
+        android:textSize="35sp" />
 
 </LinearLayout>

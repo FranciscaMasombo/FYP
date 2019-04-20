@@ -15,13 +15,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import ie.fran.fyp.Flashcards.DecksViewHolder;
 import ie.fran.fyp.Flashcards.FlashcardsMainActivity;
 import ie.fran.fyp.R;
-import ie.fran.fyp.Flashcards.DecksAdapter;
 
 public class SharedDecksFragment extends Fragment {
 
-    private DecksAdapter decksAdapter;
+    private DecksViewHolder decksViewHolder;
     private String uid;
 
     @Nullable
@@ -30,14 +30,14 @@ public class SharedDecksFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.flashcard_fragment_deck_list, null);
         uid = ((FlashcardsMainActivity) container.getContext()).getUid();
 
-        decksAdapter = new DecksAdapter(container.getContext(), uid);
+        decksViewHolder = new DecksViewHolder(container.getContext(), uid);
         RecyclerView recyclerViewPlaces = (RecyclerView) rootView.findViewById(
                 R.id.recyclerSharedDecks);
         LinearLayoutManager layoutManager = new LinearLayoutManager(container.getContext());
         layoutManager.setReverseLayout(true);
         layoutManager.setStackFromEnd(true);
         recyclerViewPlaces.setLayoutManager(layoutManager);
-        recyclerViewPlaces.setAdapter(decksAdapter);
+        recyclerViewPlaces.setAdapter(decksViewHolder);
 
         initDecksListener();
 
@@ -51,7 +51,7 @@ public class SharedDecksFragment extends Fragment {
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                decksAdapter.updateSharedDecks(uid, dataSnapshot);
+                decksViewHolder.updateSharedDecks(uid, dataSnapshot);
             }
 
             @Override

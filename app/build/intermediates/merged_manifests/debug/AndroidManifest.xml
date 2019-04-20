@@ -83,9 +83,15 @@
         <activity
             android:name="ie.fran.fyp.Planner.Tuesday.Tuesday"
             android:theme="@style/ThemePlanner" />
-        <activity android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity" />
-        <activity android:name="ie.fran.fyp.Flashcards.AddDeckActivity" />
-        <activity android:name="ie.fran.fyp.Flashcards.ViewCardsActivity" />
+        <activity
+            android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity"
+            android:theme="@style/ThemeFlashCards" />
+        <activity
+            android:name="ie.fran.fyp.Flashcards.AddDeckActivity"
+            android:theme="@style/ThemeFlashCards" />
+        <activity
+            android:name="ie.fran.fyp.Flashcards.ViewCardsActivity"
+            android:theme="@style/ThemeFlashCards" />
         <activity
             android:name="ie.fran.fyp.Planner.Monday.AddTask"
             android:theme="@style/ThemePlanner" />

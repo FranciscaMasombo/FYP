@@ -24,8 +24,8 @@
     <string name="front">FRONT</string>
     <string name="back">BACK</string>
     <string name="my_decks">My Decks</string>
-    <string name="shared_decks">share decks</string>
-    <string name="search_decks">Secrch decks</string>
+    <string name="shared_decks">Shared Decks</string>
+    <string name="search_decks">Search Database</string>
     <string name="deck_edited">deck edited</string>
     <string name="deck_created">dech created</string>
     <string name="empty_card_error">empty card error</string>

@@ -11,10 +11,7 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ie.fran.fyp.Flashcards.Deck;
-import ie.fran.fyp.Flashcards.FlashcardsMainActivity;
-import ie.fran.fyp.Flashcards.ViewCardsData;
-import ie.fran.fyp.Flashcards.view.FlipLayout;
+import ie.fran.fyp.Flashcards.FlipAnimation.FlipLayout;
 import ie.fran.fyp.R;
 
 public class ViewCardsActivity extends AppCompatActivity {

@@ -83,9 +83,9 @@ public class AddDeckActivity extends BaseActivity {
             etCardBack.setText(back);
         }
 
-        builder.setTitle("Add Card")
+        builder.setTitle("Add New Card to Deck")
                 .setView(dialog)
-                .setPositiveButton("Add Card", new DialogInterface.OnClickListener() {
+                .setPositiveButton("Save", new DialogInterface.OnClickListener() {
 
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {

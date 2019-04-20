@@ -9,7 +9,7 @@ import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
-import ie.fran.fyp.Flashcards.view.FlipLayout;
+import ie.fran.fyp.Flashcards.FlipAnimation.FlipLayout;
 import ie.fran.fyp.R;
 import java.lang.IllegalStateException;
 import java.lang.Override;

@@ -29,14 +29,14 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ie.fran.fyp.Flashcards.FlashcardsMainActivity;
 import ie.fran.fyp.R;
-import ie.fran.fyp.Flashcards.DecksAdapter;
+import ie.fran.fyp.Flashcards.DecksViewHolder;
 import ie.fran.fyp.Flashcards.Deck;
 import ie.fran.fyp.Flashcards.stringsimilarity.ComparePairs;
 import ie.fran.fyp.Flashcards.stringsimilarity.LongestCommonSubsequence;
 
 
 public class SearchFragment extends Fragment {
-    private DecksAdapter decksAdapter;
+    private DecksViewHolder decksViewHolder;
     private String uid;
     private LongestCommonSubsequence lcs;
     private String query;
@@ -54,14 +54,14 @@ public class SearchFragment extends Fragment {
 
         lcs = new LongestCommonSubsequence();
 
-        decksAdapter = new DecksAdapter(container.getContext(), uid);
+        decksViewHolder = new DecksViewHolder(container.getContext(), uid);
         RecyclerView recyclerViewPlaces = (RecyclerView) rootView.findViewById(
                 R.id.recyclerSharedDecks);
         LinearLayoutManager layoutManager = new LinearLayoutManager(container.getContext());
         layoutManager.setReverseLayout(true);
         layoutManager.setStackFromEnd(true);
         recyclerViewPlaces.setLayoutManager(layoutManager);
-        recyclerViewPlaces.setAdapter(decksAdapter);
+        recyclerViewPlaces.setAdapter(decksViewHolder);
 
         initDecksListener();
 
@@ -120,11 +120,11 @@ public class SearchFragment extends Fragment {
         }
 
         Collections.sort(list, new ComparePairs());
-        decksAdapter.clear();
+        decksViewHolder.clear();
         for (Pair<Double,DataSnapshot> pair:list) {
             Deck deck = pair.second.getValue(Deck.class);
             String key = pair.second.getKey();
-            decksAdapter.addDeck(deck,key);
+            decksViewHolder.addDeck(deck,key);
         }
     }
 }

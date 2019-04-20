@@ -43,17 +43,22 @@
 
             <Button
                 android:id="@+id/btnAddCard"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Add Card" />
+                android:text="Add Card"
+                android:textColor="@color/blue" />
 
             <Button
                 android:id="@+id/btnSend"
+                style="@style/Widget.AppCompat.Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Finish" />
+                android:background="@drawable/button_cancel"
+                android:text="Save"
+                android:textColor="@color/colorAccent" />
 
         </LinearLayout>
 

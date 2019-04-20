@@ -23,6 +23,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
+
         <activity android:name=".Settings.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -67,9 +68,14 @@
 
 
 
-        <activity android:name=".Flashcards.FlashcardsMainActivity" />
-        <activity android:name=".Flashcards.AddDeckActivity" />
-        <activity android:name=".Flashcards.ViewCardsActivity" />
+        <activity android:name=".Flashcards.FlashcardsMainActivity"
+            android:theme="@style/ThemeFlashCards" />
+        <activity android:name=".Flashcards.AddDeckActivity"
+            android:theme="@style/ThemeFlashCards" />
+        <activity android:name=".Flashcards.ViewCardsActivity"
+            android:theme="@style/ThemeFlashCards" />
+
+
         <activity
             android:name=".Planner.Monday.AddTask"
             android:theme="@style/ThemePlanner" />
