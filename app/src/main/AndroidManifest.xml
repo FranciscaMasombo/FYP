@@ -31,24 +31,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Settings.ResetPasswordActivity"/>
+        <activity android:name=".Settings.ResetPasswordActivity"
+            android:theme="@style/login"/>
         <activity android:name=".Settings.Settings_Activity"/>
-        <activity android:name=".Settings.SignupActivity"/>
+        <activity android:name=".Settings.SignupActivity"
+            android:theme="@style/login"/>
 
 
 
-        <activity android:name=".Planner.Thursday.AddThursday"></activity>
-        <activity android:name=".Planner.Sunday.AddSunday" />
-        <activity android:name=".Planner.Saturday.AddSaturday" />
-        <activity android:name=".Planner.Friday.AddFriday" />
-        <activity android:name=".Planner.Wednesday.AddWednesday" />
-        <activity android:name=".Planner.Tuesday.AddTaskTuesday" />
-        <activity android:name=".Planner.Sunday.Sunday" />
-        <activity android:name=".Planner.Saturday.Saturday" />
-        <activity android:name=".Planner.Friday.Friday" />
-        <activity android:name=".Planner.Thursday.Thursday" />
-        <activity android:name=".Planner.Wednesday.Wednesday" />
-        <activity android:name=".Planner.Tuesday.Tuesday" />
+        <activity android:name=".Planner.Thursday.AddThursday"
+            android:theme="@style/ThemePlanner" >
+        </activity>
+        <activity android:name=".Planner.Sunday.AddSunday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Saturday.AddSaturday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Friday.AddFriday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Wednesday.AddWednesday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Tuesday.AddTaskTuesday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Sunday.Sunday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Saturday.Saturday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Friday.Friday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Thursday.Thursday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Wednesday.Wednesday"
+            android:theme="@style/ThemePlanner" />
+        <activity android:name=".Planner.Tuesday.Tuesday"
+            android:theme="@style/ThemePlanner" />
+
+
+
         <activity android:name=".Flashcards.FlashcardsMainActivity" />
         <activity android:name=".Flashcards.AddDeckActivity" />
         <activity android:name=".Flashcards.ViewCardsActivity" />

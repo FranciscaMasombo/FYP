@@ -40,21 +40,50 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ie.fran.fyp.Settings.ResetPasswordActivity" />
+        <activity
+            android:name="ie.fran.fyp.Settings.ResetPasswordActivity"
+            android:theme="@style/login" />
         <activity android:name="ie.fran.fyp.Settings.Settings_Activity" />
-        <activity android:name="ie.fran.fyp.Settings.SignupActivity" />
-        <activity android:name="ie.fran.fyp.Planner.Thursday.AddThursday" />
-        <activity android:name="ie.fran.fyp.Planner.Sunday.AddSunday" />
-        <activity android:name="ie.fran.fyp.Planner.Saturday.AddSaturday" />
-        <activity android:name="ie.fran.fyp.Planner.Friday.AddFriday" />
-        <activity android:name="ie.fran.fyp.Planner.Wednesday.AddWednesday" />
-        <activity android:name="ie.fran.fyp.Planner.Tuesday.AddTaskTuesday" />
-        <activity android:name="ie.fran.fyp.Planner.Sunday.Sunday" />
-        <activity android:name="ie.fran.fyp.Planner.Saturday.Saturday" />
-        <activity android:name="ie.fran.fyp.Planner.Friday.Friday" />
-        <activity android:name="ie.fran.fyp.Planner.Thursday.Thursday" />
-        <activity android:name="ie.fran.fyp.Planner.Wednesday.Wednesday" />
-        <activity android:name="ie.fran.fyp.Planner.Tuesday.Tuesday" />
+        <activity
+            android:name="ie.fran.fyp.Settings.SignupActivity"
+            android:theme="@style/login" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Thursday.AddThursday"
+            android:theme="@style/ThemePlanner" >
+        </activity>
+        <activity
+            android:name="ie.fran.fyp.Planner.Sunday.AddSunday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Saturday.AddSaturday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Friday.AddFriday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Wednesday.AddWednesday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Tuesday.AddTaskTuesday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Sunday.Sunday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Saturday.Saturday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Friday.Friday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Thursday.Thursday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Wednesday.Wednesday"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name="ie.fran.fyp.Planner.Tuesday.Tuesday"
+            android:theme="@style/ThemePlanner" />
         <activity android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.AddDeckActivity" />
         <activity android:name="ie.fran.fyp.Flashcards.ViewCardsActivity" />

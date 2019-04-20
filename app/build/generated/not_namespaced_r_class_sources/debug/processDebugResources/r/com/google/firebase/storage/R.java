@@ -50,10 +50,10 @@ public final class R {
         public static final int notification_action_color_filter = 0x7f05009d;
         public static final int notification_icon_bg_color = 0x7f05009e;
         public static final int notification_material_background_media_default_color = 0x7f05009f;
-        public static final int primary_text_default_material_dark = 0x7f0500a8;
-        public static final int ripple_material_light = 0x7f0500ae;
-        public static final int secondary_text_default_material_dark = 0x7f0500af;
-        public static final int secondary_text_default_material_light = 0x7f0500b0;
+        public static final int primary_text_default_material_dark = 0x7f0500aa;
+        public static final int ripple_material_light = 0x7f0500b0;
+        public static final int secondary_text_default_material_dark = 0x7f0500b1;
+        public static final int secondary_text_default_material_light = 0x7f0500b2;
     }
     public static final class dimen {
         private dimen() {}
@@ -149,15 +149,15 @@ public final class R {
         public static final int notification_background = 0x7f080110;
         public static final int notification_main_column = 0x7f080111;
         public static final int notification_main_column_container = 0x7f080112;
-        public static final int right_icon = 0x7f080135;
-        public static final int right_side = 0x7f080136;
-        public static final int standard = 0x7f08016d;
-        public static final int status_bar_latest_event_content = 0x7f080172;
-        public static final int text = 0x7f080189;
-        public static final int text2 = 0x7f08018a;
-        public static final int time = 0x7f080198;
-        public static final int title = 0x7f08019b;
-        public static final int wide = 0x7f0801c9;
+        public static final int right_icon = 0x7f080134;
+        public static final int right_side = 0x7f080135;
+        public static final int standard = 0x7f08016c;
+        public static final int status_bar_latest_event_content = 0x7f080171;
+        public static final int text = 0x7f080188;
+        public static final int text2 = 0x7f080189;
+        public static final int time = 0x7f080197;
+        public static final int title = 0x7f08019a;
+        public static final int wide = 0x7f0801c8;
     }
     public static final class integer {
         private integer() {}

@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1555727316163"
+    timestamp="1555761012531"
     token="-8678662230861574222"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,16 +29,19 @@
 
     <build
         build-mode="FULL"
-        timestamp="1555727221528"
+        timestamp="1555758744615"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -53,16 +56,51 @@
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1555760723399"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
@@ -73,7 +111,16 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1555727316163"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1555760918629"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1555761012531"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"

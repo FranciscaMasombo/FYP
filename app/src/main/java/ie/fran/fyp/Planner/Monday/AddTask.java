@@ -2,6 +2,7 @@ package ie.fran.fyp.Planner.Monday;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -99,7 +100,6 @@ public class AddTask extends AppCompatActivity {
                 String loca = loc.getText().toString().trim();
                 String datee = date.getText().toString().trim();
                 String timee = time.getText().toString().trim();
-
                 if (       !TextUtils.isEmpty(title)
                         && !TextUtils.isEmpty(descip)
                         && !TextUtils.isEmpty(loca)
@@ -212,7 +212,6 @@ public class AddTask extends AppCompatActivity {
                         loc.setText(locS);
                         date.setText(dateS);
                         time.setText(timeS);
-
                     }
                 }
 
@@ -237,6 +236,10 @@ public class AddTask extends AppCompatActivity {
                 updateMap.put("time", time.getText().toString().trim());
 
                 reference.child(noteID).updateChildren(updateMap);
+
+                Intent intent = new Intent(AddTask.this, Monday.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
             } else {
                 // CREATE A NEW
                 final DatabaseReference newTaskref = reference.push();
@@ -253,7 +256,10 @@ public class AddTask extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<Void> task) {
                                 if (task.isSuccessful()) {
-                                    Toast.makeText(AddTask.this, "added to database", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(AddTask.this, "Added to database", Toast.LENGTH_SHORT).show();
+                                    Intent intent = new Intent(AddTask.this, Monday.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                    startActivity(intent);
                                 } else {
                                     Toast.makeText(AddTask.this, "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                 }
