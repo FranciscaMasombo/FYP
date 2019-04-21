@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
-INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
-INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
-INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
+INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
+INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
+INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\8d4cb11e7c5648e86604cc431dbdf44e\AndroidManifest.xml:2:1-109:12
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\44c7621992d44ce9dbd1b9a115fea5f9\AndroidManifest.xml:17:1-42:12
 MERGED from [com.karumi:dexter:5.0.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\f40a821681184bdbf42196a61bc0b14b\AndroidManifest.xml:17:1-32:12
@@ -76,22 +76,22 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Francisca Masombo
 MERGED from [com.scottyab:rootbeer-lib:0.0.7] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\888371efc082934a29a1452fd09e5bb8\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\985dc844bcca039df8139aa5057d02c6\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:16.0.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\878ee599db045659170d60a8238249f9\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
-INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
-INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
+INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
+INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
+INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
 	package
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:4:5-26
 		INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
 		INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-153:12
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:1-183:12
 		INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:2:11-69
@@ -142,7 +142,7 @@ MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo
 	android:name
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:14:22-64
 application
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:16:5-151:19
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:16:5-181:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\8d4cb11e7c5648e86604cc431dbdf44e\AndroidManifest.xml:15:5-107:19
 MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\8d4cb11e7c5648e86604cc431dbdf44e\AndroidManifest.xml:15:5-107:19
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\44c7621992d44ce9dbd1b9a115fea5f9\AndroidManifest.xml:23:5-40:19
@@ -215,229 +215,289 @@ MERGED from [com.scottyab:rootbeer-lib:0.0.7] C:\Users\Francisca Masombo\.gradle
 	android:name
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:17:9-65
 activity#ie.fran.fyp.Settings.LoginActivity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:27:9-34:20
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:28:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:29:13-56
 	android:name
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:27:19-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:33:27-74
 activity#ie.fran.fyp.Settings.ResetPasswordActivity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:35:9-36:43
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:36:9-38:43
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:37:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:38:13-41
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:35:19-65
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:36:19-65
 activity#ie.fran.fyp.Settings.Settings_Activity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:37:9-63
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:39:9-40:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:40:13-49
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:37:19-61
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:39:19-61
 activity#ie.fran.fyp.Settings.SignupActivity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:38:9-39:43
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:41:9-43:43
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:42:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:39:13-41
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:43:13-41
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:38:19-58
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:41:19-58
 activity#ie.fran.fyp.Planner.Thursday.AddThursday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:43:9-45:20
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:44:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:43:19-63
-activity#ie.fran.fyp.Planner.Sunday.AddSunday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:46:9-47:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:47:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:46:19-59
-activity#ie.fran.fyp.Planner.Saturday.AddSaturday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:48:9-49:51
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:47:9-50:20
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:48:13-49
 	android:theme
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:49:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:48:19-63
-activity#ie.fran.fyp.Planner.Friday.AddFriday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:50:9-51:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:51:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:50:19-59
-activity#ie.fran.fyp.Planner.Wednesday.AddWednesday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:52:9-53:51
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:47:19-63
+activity#ie.fran.fyp.Planner.Sunday.AddSunday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:51:9-53:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:52:13-49
 	android:theme
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:53:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:52:19-65
-activity#ie.fran.fyp.Planner.Tuesday.AddTaskTuesday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:54:9-55:51
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:51:19-59
+activity#ie.fran.fyp.Planner.Saturday.AddSaturday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:54:9-56:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:55:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:55:13-48
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:56:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:54:19-65
-activity#ie.fran.fyp.Planner.Sunday.Sunday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:56:9-57:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:57:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:56:19-56
-activity#ie.fran.fyp.Planner.Saturday.Saturday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:58:9-59:51
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:54:19-63
+activity#ie.fran.fyp.Planner.Friday.AddFriday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:57:9-59:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:58:13-49
 	android:theme
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:59:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:58:19-60
-activity#ie.fran.fyp.Planner.Friday.Friday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:60:9-61:51
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:57:19-59
+activity#ie.fran.fyp.Planner.Wednesday.AddWednesday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:60:9-62:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:61:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:61:13-48
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:62:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:60:19-56
-activity#ie.fran.fyp.Planner.Thursday.Thursday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:62:9-63:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:63:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:62:19-60
-activity#ie.fran.fyp.Planner.Wednesday.Wednesday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:64:9-65:51
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:60:19-65
+activity#ie.fran.fyp.Planner.Tuesday.AddTaskTuesday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:63:9-65:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:64:13-49
 	android:theme
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:65:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:64:19-62
-activity#ie.fran.fyp.Planner.Tuesday.Tuesday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:66:9-67:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:67:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:66:19-58
-activity#ie.fran.fyp.Flashcards.FlashcardsMainActivity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:71:9-72:54
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:72:13-51
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:71:19-68
-activity#ie.fran.fyp.Flashcards.AddDeckActivity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:73:9-74:54
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:74:13-51
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:73:19-61
-activity#ie.fran.fyp.Flashcards.ViewCardsActivity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:75:9-76:54
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:76:13-51
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:75:19-63
-activity#ie.fran.fyp.Planner.Monday.AddTask
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:79:9-81:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:81:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:80:13-51
-activity#ie.fran.fyp.Planner.Monday.Monday
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:82:9-84:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:84:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:83:13-50
-activity#ie.fran.fyp.Planner.Planner_Activity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:85:9-87:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:87:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:86:13-53
-activity#ie.fran.fyp.Notes.NewNote
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:88:9-90:48
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:90:13-45
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:89:13-42
-activity#ie.fran.fyp.Start
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:91:9-43
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:91:19-40
-activity#ie.fran.fyp.Users.login
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:92:9-49
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:92:19-46
-activity#ie.fran.fyp.Users.SignUp
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:93:9-50
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:93:19-47
-activity#ie.fran.fyp.ToDo.ToDo_Activity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:94:9-96:48
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:96:13-45
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:95:13-47
-activity#ie.fran.fyp.ToDo.NewTaskAct
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:97:9-99:48
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:99:13-45
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:98:13-44
-activity#ie.fran.fyp.Scanner_Activity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:100:9-102:51
-	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:102:13-48
-	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:101:13-45
-activity#ie.fran.fyp.Notes.Note_Activity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:103:9-106:48
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:63:19-65
+activity#ie.fran.fyp.Planner.Sunday.Sunday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:66:9-68:51
 	android:screenOrientation
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:105:13-49
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:67:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:106:13-45
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:68:13-48
 	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:66:19-56
+activity#ie.fran.fyp.Planner.Saturday.Saturday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:69:9-71:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:70:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:71:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:69:19-60
+activity#ie.fran.fyp.Planner.Friday.Friday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:72:9-74:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:73:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:72:19-56
+activity#ie.fran.fyp.Planner.Thursday.Thursday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:75:9-77:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:76:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:77:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:75:19-60
+activity#ie.fran.fyp.Planner.Wednesday.Wednesday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:78:9-80:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:79:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:80:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:78:19-62
+activity#ie.fran.fyp.Planner.Tuesday.Tuesday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:81:9-83:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:82:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:83:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:81:19-58
+activity#ie.fran.fyp.Flashcards.FlashcardsMainActivity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:87:9-89:54
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:88:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:89:13-51
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:87:19-68
+activity#ie.fran.fyp.Flashcards.AddDeckActivity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:90:9-92:54
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:91:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:92:13-51
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:90:19-61
+activity#ie.fran.fyp.Flashcards.ViewCardsActivity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:93:9-94:54
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:94:13-51
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:93:19-63
+activity#ie.fran.fyp.Planner.Monday.AddTask
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:97:9-100:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:99:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:100:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:98:13-51
+activity#ie.fran.fyp.Planner.Monday.Monday
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:101:9-104:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:103:13-49
+	android:theme
 		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:104:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:102:13-50
+activity#ie.fran.fyp.Planner.Planner_Activity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:105:9-108:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:107:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:108:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:106:13-53
+activity#ie.fran.fyp.Notes.NewNote
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:109:9-112:48
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:111:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:112:13-45
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:110:13-42
+activity#ie.fran.fyp.Start
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:113:9-43
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:113:19-40
+activity#ie.fran.fyp.Users.login
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:114:9-49
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:114:19-46
+activity#ie.fran.fyp.Users.SignUp
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:115:9-50
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:115:19-47
+activity#ie.fran.fyp.ToDo.ToDo_Activity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:116:9-119:48
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:118:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:119:13-45
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:117:13-47
+activity#ie.fran.fyp.ToDo.NewTaskAct
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:120:9-123:48
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:122:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:123:13-45
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:121:13-44
+activity#ie.fran.fyp.Scanner_Activity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:124:9-127:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:126:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:125:13-45
+activity#ie.fran.fyp.Notes.Note_Activity
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:128:9-131:48
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:130:13-49
+	android:theme
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:131:13-45
+	android:name
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:129:13-48
 activity#ie.fran.fyp.Focus.Focus_On_Activity
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:107:9-109:51
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:132:9-135:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:134:13-49
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:109:13-48
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:135:13-48
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:108:13-52
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:133:13-52
 activity#ie.fran.fyp.Focus.services.Redirect
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:111:9-61
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:137:9-138:51
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:138:13-49
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:111:19-58
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:137:19-58
 service#ie.fran.fyp.Focus.services.AppBlockerService
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:113:9-117:44
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:140:9-145:44
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:142:13-49
 	android:process
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:116:13-49
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:144:13-49
 	android:enabled
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:115:13-35
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:143:13-35
 	android:stopWithTask
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:117:13-41
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:145:13-41
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:114:13-61
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:141:13-61
 receiver#ie.fran.fyp.Focus.services.PhoneBootReciever
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:119:9-123:20
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:147:9-152:20
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:148:13-49
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:119:19-67
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:147:19-67
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:120:13-122:29
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:149:13-151:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:121:17-79
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:150:17-79
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:121:25-76
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:150:25-76
 activity#ie.fran.fyp.Dashboard
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:125:9-129:20
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:154:9-159:20
+	android:screenOrientation
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:155:13-49
 	android:label
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:127:13-37
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:157:13-37
 	android:theme
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:128:13-56
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:158:13-56
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:126:13-38
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:156:13-38
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:131:9-92
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:161:9-92
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\44c7621992d44ce9dbd1b9a115fea5f9\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\44c7621992d44ce9dbd1b9a115fea5f9\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\a5b6a6ecd61e1f7982f5b95f24100aae\AndroidManifest.xml:29:9-33:19
@@ -451,39 +511,39 @@ MERGED from [com.google.firebase:firebase-iid:17.1.2] C:\Users\Francisca Masombo
 	android:exported
 		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Francisca Masombo\.gradle\caches\transforms-2\files-2.1\44c7621992d44ce9dbd1b9a115fea5f9\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:131:18-89
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:161:18-89
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:133:9-135:81
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:163:9-165:81
 	android:value
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:135:13-78
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:165:13-78
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:134:13-105
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:164:13-105
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:136:9-138:81
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:166:9-168:81
 	android:value
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:138:13-78
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:168:13-78
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:137:13-135
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:167:13-135
 meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:139:9-141:81
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:169:9-171:81
 	android:value
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:141:13-78
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:171:13-78
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:140:13-92
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:170:13-92
 service#ie.fran.fyp.Focus.Block_All_Notification
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:143:9-150:19
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:173:9-180:19
 	android:label
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:145:13-45
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:175:13-45
 	android:permission
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:146:13-87
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:176:13-87
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:144:13-57
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:174:13-57
 intent-filter#action:name:android.service.notification.NotificationListenerService
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:147:13-149:29
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:177:13-179:29
 action#android.service.notification.NotificationListenerService
-ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:148:17-99
+ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:178:17-99
 	android:name
-		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:148:25-96
+		ADDED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml:178:25-96
 uses-sdk
 INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Francisca Masombo\OneDrive\Uni\Semester 2\fyp\FYP\app\src\main\AndroidManifest.xml

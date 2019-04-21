@@ -33,6 +33,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="ie.fran.fyp.Settings.LoginActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,80 +43,105 @@
         </activity>
         <activity
             android:name="ie.fran.fyp.Settings.ResetPasswordActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/login" />
-        <activity android:name="ie.fran.fyp.Settings.Settings_Activity" />
+        <activity
+            android:name="ie.fran.fyp.Settings.Settings_Activity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="ie.fran.fyp.Settings.SignupActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/login" />
         <activity
             android:name="ie.fran.fyp.Planner.Thursday.AddThursday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" >
         </activity>
         <activity
             android:name="ie.fran.fyp.Planner.Sunday.AddSunday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Saturday.AddSaturday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Friday.AddFriday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Wednesday.AddWednesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Tuesday.AddTaskTuesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Sunday.Sunday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Saturday.Saturday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Friday.Friday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Thursday.Thursday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Wednesday.Wednesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Tuesday.Tuesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Flashcards.FlashcardsMainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
         <activity
             android:name="ie.fran.fyp.Flashcards.AddDeckActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
         <activity
             android:name="ie.fran.fyp.Flashcards.ViewCardsActivity"
             android:theme="@style/ThemeFlashCards" />
         <activity
             android:name="ie.fran.fyp.Planner.Monday.AddTask"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Monday.Monday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Planner_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Notes.NewNote"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
         <activity android:name="ie.fran.fyp.Start" />
         <activity android:name="ie.fran.fyp.Users.login" />
         <activity android:name="ie.fran.fyp.Users.SignUp" />
         <activity
             android:name="ie.fran.fyp.ToDo.ToDo_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeToDo" />
         <activity
             android:name="ie.fran.fyp.ToDo.NewTaskAct"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeToDo" />
         <activity
             android:name="ie.fran.fyp.Scanner_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeScanner" />
         <activity
             android:name="ie.fran.fyp.Notes.Note_Activity"
@@ -123,16 +149,22 @@
             android:theme="@style/ThemeNote" />
         <activity
             android:name="ie.fran.fyp.Focus.Focus_On_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeFocusOn" />
-        <activity android:name="ie.fran.fyp.Focus.services.Redirect" />
+        <activity
+            android:name="ie.fran.fyp.Focus.services.Redirect"
+            android:screenOrientation="portrait" />
 
         <service
             android:name="ie.fran.fyp.Focus.services.AppBlockerService"
             android:enabled="true"
             android:process=":AppBlockerService"
+            android:screenOrientation="portrait"
             android:stopWithTask="false" />
 
-        <receiver android:name="ie.fran.fyp.Focus.services.PhoneBootReciever" >
+        <receiver
+            android:name="ie.fran.fyp.Focus.services.PhoneBootReciever"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
@@ -141,6 +173,7 @@
         <activity
             android:name="ie.fran.fyp.Dashboard"
             android:label="StudyAid"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 

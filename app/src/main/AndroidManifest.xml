@@ -25,6 +25,7 @@
         tools:replace="android:appComponentFactory">
 
         <activity android:name=".Settings.LoginActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,44 +34,61 @@
             </intent-filter>
         </activity>
         <activity android:name=".Settings.ResetPasswordActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/login"/>
-        <activity android:name=".Settings.Settings_Activity"/>
+        <activity android:name=".Settings.Settings_Activity"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Settings.SignupActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/login"/>
 
 
 
         <activity android:name=".Planner.Thursday.AddThursday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" >
         </activity>
         <activity android:name=".Planner.Sunday.AddSunday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Saturday.AddSaturday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Friday.AddFriday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Wednesday.AddWednesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Tuesday.AddTaskTuesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Sunday.Sunday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Saturday.Saturday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Friday.Friday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Thursday.Thursday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Wednesday.Wednesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity android:name=".Planner.Tuesday.Tuesday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
 
 
 
         <activity android:name=".Flashcards.FlashcardsMainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
         <activity android:name=".Flashcards.AddDeckActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
         <activity android:name=".Flashcards.ViewCardsActivity"
             android:theme="@style/ThemeFlashCards" />
@@ -78,27 +96,34 @@
 
         <activity
             android:name=".Planner.Monday.AddTask"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name=".Planner.Monday.Monday"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name=".Planner.Planner_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
         <activity
             android:name=".Notes.NewNote"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
         <activity android:name=".Start" />
         <activity android:name=".Users.login" />
         <activity android:name=".Users.SignUp" />
         <activity
             android:name=".ToDo.ToDo_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeToDo" />
         <activity
             android:name=".ToDo.NewTaskAct"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeToDo" />
         <activity
             android:name=".Scanner_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeScanner" />
         <activity
             android:name=".Notes.Note_Activity"
@@ -106,23 +131,28 @@
             android:theme="@style/ThemeNote" />
         <activity
             android:name=".Focus.Focus_On_Activity"
+            android:screenOrientation="portrait"
             android:theme="@style/ThemeFocusOn" />
 
-        <activity android:name=".Focus.services.Redirect" />
+        <activity android:name=".Focus.services.Redirect"
+            android:screenOrientation="portrait"/>
 
         <service
             android:name=".Focus.services.AppBlockerService"
+            android:screenOrientation="portrait"
             android:enabled="true"
             android:process=":AppBlockerService"
             android:stopWithTask="false" />
 
-        <receiver android:name=".Focus.services.PhoneBootReciever">
+        <receiver android:name=".Focus.services.PhoneBootReciever"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
         <activity
+            android:screenOrientation="portrait"
             android:name=".Dashboard"
             android:label="StudyAid"
             android:theme="@style/AppTheme.NoActionBar">

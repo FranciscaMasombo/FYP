@@ -22,7 +22,6 @@ import java.util.List;
 
 import ie.fran.fyp.R;
 
-//  TODO add a progress bar to the apps page
 public class AppsFragment extends Fragment implements SearchView.OnQueryTextListener{
 
     public static ApplicationListAdapter adapter;

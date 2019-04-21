@@ -93,6 +93,7 @@ public class DecksViewHolder extends RecyclerView.Adapter<DecksViewHolder.ViewHo
             @Override
             public void onClick(View view) {
                 if (deckList.get(position).getFronts() != null) {
+
                     Intent intent = new Intent(context, ViewCardsActivity.class);
                     intent.putExtra(FlashcardsMainActivity.KEY_DECK, deckList.get(position));
                     context.startActivity(intent);

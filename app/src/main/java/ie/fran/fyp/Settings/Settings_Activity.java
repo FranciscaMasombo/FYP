@@ -36,8 +36,8 @@ public class Settings_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_setting);
 
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-       // toolbar.setTitle(getString(R.string.app_name));
-       // setSupportActionBar(toolbar);
+        // toolbar.setTitle(getString(R.string.app_name));
+        // setSupportActionBar(toolbar);
 
         //get firebase auth instance
         auth = FirebaseAuth.getInstance();
@@ -220,33 +220,33 @@ public class Settings_Activity extends AppCompatActivity {
                 progressBar.setVisibility(View.VISIBLE);
                 if (user != null) {
                     new AlertDialog.Builder(Settings_Activity.this)
-                .setTitle("Delete Account")
+                            .setTitle("Delete Account")
                             .setMessage("Are you sure that you want to delete your account")
-.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-    @Override
-    public void onClick(DialogInterface dialogInterface, int i) {
-        dialogInterface.dismiss();
-    }
-})                            .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                            .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialogInterface, int i) {
-                                    user.delete()
-                                            .addOnCompleteListener(new OnCompleteListener<Void>() {
-                                                @Override
-                                                public void onComplete(@NonNull Task<Void> task) {
-                                                    if (task.isSuccessful()) {
-                                                        Toast.makeText(Settings_Activity.this, "Your profile is deleted :( Create a account now!", Toast.LENGTH_SHORT).show();
-                                                        startActivity(new Intent(Settings_Activity.this, SignupActivity.class));
-                                                        finish();
-                                                        progressBar.setVisibility(View.GONE);
-                                                    } else {
-                                                        Toast.makeText(Settings_Activity.this, "Failed to delete your account!", Toast.LENGTH_SHORT).show();
-                                                        progressBar.setVisibility(View.GONE);
-                                                    }
-                                                }
-                                            });
+                                    dialogInterface.dismiss();
                                 }
-                            }).show();
+                            }).setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                                    user.delete()
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()) {
+                                                Toast.makeText(Settings_Activity.this, "Your profile is deleted :( Create a account now!", Toast.LENGTH_SHORT).show();
+                                                startActivity(new Intent(Settings_Activity.this, SignupActivity.class));
+                                                finish();
+                                                progressBar.setVisibility(View.GONE);
+                                            } else {
+                                                Toast.makeText(Settings_Activity.this, "Failed to delete your account!", Toast.LENGTH_SHORT).show();
+                                                progressBar.setVisibility(View.GONE);
+                                            }
+                                        }
+                                    });
+                        }
+                    }).show();
 
                 }
             }

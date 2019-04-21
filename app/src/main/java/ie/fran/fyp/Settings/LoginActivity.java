@@ -36,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         auth = FirebaseAuth.getInstance();
 
         if (auth.getCurrentUser() != null) {
+
             startActivity(new Intent(LoginActivity.this, Dashboard.class));
             finish();
         }
@@ -107,7 +108,6 @@ public class LoginActivity extends AppCompatActivity {
                                     }
                                 } else {
                                     checkEmailVerification();
-
                                     Intent intent = new Intent(LoginActivity.this, Dashboard.class);
                                     startActivity(intent);
                                     finish();

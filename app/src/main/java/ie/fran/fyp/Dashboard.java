@@ -8,21 +8,25 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import ie.fran.fyp.Flashcards.FlashcardsMainActivity;
 import ie.fran.fyp.Focus.Focus_On_Activity;
 import ie.fran.fyp.Notes.Note_Activity;
 import ie.fran.fyp.Planner.Planner_Activity;
+import ie.fran.fyp.Settings.LoginActivity;
 import ie.fran.fyp.Settings.Settings_Activity;
 import ie.fran.fyp.ToDo.ToDo_Activity;
 
 public class Dashboard extends AppCompatActivity {
     RelativeLayout focus_on, note, flashcard, planner, todo, scanner;
-
+    FirebaseAuth fAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +34,15 @@ public class Dashboard extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        fAuth = FirebaseAuth.getInstance();
+        if (fAuth.getCurrentUser() != null) {
+            Log.i("MainActivity", "fAuth != null");
+        } else {
+            Intent startIntent = new Intent(Dashboard.this, LoginActivity.class);
+            startActivity(startIntent);
+            finish();
+            Log.i("MainActivity", "fAuth == null");
+        }
 
 //        DrawerLayout drawer = findViewById(R.id.drawer_layout);
 //        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(

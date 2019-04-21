@@ -26,6 +26,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import ie.fran.fyp.R;
+import ie.fran.fyp.Settings.LoginActivity;
 import ie.fran.fyp.Start;
 
 public class Note_Activity extends AppCompatActivity {
@@ -132,7 +133,7 @@ public class Note_Activity extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             Log.i("MainActivity", "fAuth != null");
         } else {
-            Intent startIntent = new Intent(Note_Activity.this, Start.class);
+            Intent startIntent = new Intent(Note_Activity.this, LoginActivity.class);
             startActivity(startIntent);
             finish();
             Log.i("MainActivity", "fAuth == null");

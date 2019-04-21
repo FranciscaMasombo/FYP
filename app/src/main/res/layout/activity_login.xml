@@ -87,6 +87,13 @@
             android:textAllCaps="false"
             android:textColor="#00BCD4"
             android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="You will get an email to verfiy your email address." />
     </LinearLayout>
 
     <ProgressBar
