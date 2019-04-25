@@ -14,9 +14,10 @@ public class Redirect extends Activity {
     }
 
     public void init() {
-        String url = "http://www.wit.ie";
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse(url));
-        startActivity(i);
+        //String url = "http://www.wit.ie";
+        String url = "https://franciscamasombo.github.io/StudyAID/focus";
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(url));
+        startActivity(intent);
     }
 }

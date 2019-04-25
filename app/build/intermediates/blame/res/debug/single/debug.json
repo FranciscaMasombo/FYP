@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\00df6a09abdead6c1b938e4277d12f09\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\00df6a09abdead6c1b938e4277d12f09\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_baseline_view_week_black_24.png.flat",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\flashcard_app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_add_white_36.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_add_white_36.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_legacy_text_color_selector.xml.flat",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\color\\mtrl_btn_ripple_color.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_btn_ripple_color.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\color\\mtrl_btn_ripple_color.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_show_password.xml.flat",
@@ -156,16 +156,16 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\flashcards.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_baseline_access_time_black_36.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxhdpi\\baseline_access_time_black_36.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_search_api_material.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_baseline_access_time_black_36.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxhdpi\\baseline_access_time_black_36.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_baseline_subject_black_24.png.flat",
@@ -236,20 +236,20 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\baseline_view_week_24.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_view_item.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\recycler_view_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_baseline_access_time_black_18.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxhdpi\\baseline_access_time_black_18.png"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_recycler_view_item.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\recycler_view_item.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_flashcard_completion_screen.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\flashcard_completion_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_baseline_access_time_black_18.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxhdpi\\baseline_access_time_black_18.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout-port_flashcard_activity_view_cards.xml.flat",
@@ -264,24 +264,24 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\a39ce5bc5a4f4f35ebf86f211fd6f35f\\res\\layout\\browser_actions_context_menu_page.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_images.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\activity_images.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
@@ -308,20 +308,20 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_does.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\item_does.xml"
-    },
-    {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_top_material.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_does.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\item_does.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_flashcard_.xml.flat",
@@ -388,12 +388,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxxhdpi\\baseline_event_note_black_18.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-v21\\abc_list_divider_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_fui_idp_button_background_twitter.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\8d4cb11e7c5648e86604cc431dbdf44e\\res\\drawable-v21\\fui_idp_button_background_twitter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-v21\\abc_list_divider_material.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -412,12 +412,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\login.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
@@ -428,12 +428,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxxhdpi\\baseline_people_black_18.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_baseline_book_black_18.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xhdpi\\baseline_book_black_18.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_baseline_book_black_18.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xhdpi\\baseline_book_black_18.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
@@ -468,12 +468,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_baseline_view_week_black_18.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xhdpi\\baseline_view_week_black_18.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_baseline_expand_more_black_48.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxxhdpi\\baseline_expand_more_black_48.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_baseline_view_week_black_18.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xhdpi\\baseline_view_week_black_18.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_library_bottom_dialog.xml.flat",
@@ -580,12 +580,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_baseline_access_time_black_24.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-hdpi\\baseline_access_time_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_baseline_person_black_36.png.flat",
@@ -648,12 +648,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_item.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\image_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_access_time_black_24.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_access_time_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_image_item.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\image_item.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -684,12 +684,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\add_card_row.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_expand_more_black_24.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_expand_more_black_24.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_expand_more_black_24.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_expand_more_black_24.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -708,12 +708,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\baseline_list_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\00df6a09abdead6c1b938e4277d12f09\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -748,12 +748,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\baseline_phone_24.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
@@ -768,16 +768,16 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\8d4cb11e7c5648e86604cc431dbdf44e\\res\\drawable\\fui_ic_twitter_bird_white_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_add_white_18.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_add_white_18.png"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_baseline_access_time_black_36.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-hdpi\\baseline_access_time_black_36.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_add_white_18.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_add_white_18.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
@@ -812,12 +812,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_settings_black_18.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -912,12 +912,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_baseline_add_white_18.png.flat",
@@ -980,12 +980,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_baseline_delete_forever_white_36.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-hdpi\\baseline_delete_forever_white_36.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_baseline_delete_forever_white_36.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-hdpi\\baseline_delete_forever_white_36.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unicorn.png.flat",
@@ -1020,12 +1020,12 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\f1dcae3b21b0932b45848a937049842d\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_phone_black_24.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_phone_black_24.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_background_selector.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\card_background_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_phone_black_24.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_phone_black_24.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_expand_more_24.xml.flat",
@@ -1056,12 +1056,12 @@
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\layout\\activity_add_deck.xml"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\d30dac40c66a42fa3d9abcbe805d0810\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\d30dac40c66a42fa3d9abcbe805d0810\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -1084,20 +1084,20 @@
         "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\d30dac40c66a42fa3d9abcbe805d0810\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_baseline_access_time_black_48.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-mdpi\\baseline_access_time_black_48.png"
     },
     {
-        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\d30dac40c66a42fa3d9abcbe805d0810\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_baseline_edit_white_48.png.flat",
         "source": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\src\\main\\res\\drawable-xxxhdpi\\baseline_edit_white_48.png"
+    },
+    {
+        "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Francisca Masombo\\.gradle\\caches\\transforms-2\\files-2.1\\62dba209b8d1113f9e017d6de10d5fee\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Francisca Masombo\\OneDrive\\Uni\\Semester 2\\fyp\\FYP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_ic_mail_white_24dp.xml.flat",

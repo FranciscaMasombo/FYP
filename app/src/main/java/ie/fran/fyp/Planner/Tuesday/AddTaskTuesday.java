@@ -50,6 +50,7 @@ public class AddTaskTuesday extends AppCompatActivity {
     private FirebaseAuth fAuth;
 
     private boolean isExist;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,7 +104,7 @@ public class AddTaskTuesday extends AppCompatActivity {
                         && !TextUtils.isEmpty(datee)
                         && !TextUtils.isEmpty(timee)) {
                     createTask(title, descip, loca, datee, timee);
-                }else {
+                } else {
                     Snackbar.make(view, "Fill empty fields", Snackbar.LENGTH_SHORT).show();
                 }
             }
@@ -127,7 +128,7 @@ public class AddTaskTuesday extends AppCompatActivity {
                             }
                         }
                     });
-                }else {
+                } else {
                     Toast.makeText(AddTaskTuesday.this, " Nothing to delete", Toast.LENGTH_SHORT).show();
 
                 }
@@ -253,7 +254,8 @@ public class AddTaskTuesday extends AppCompatActivity {
                                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
                                     startActivity(intent);
                                 } else {
-                                    Toast.makeText(AddTaskTuesday.this, "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(AddTaskTuesday.this,
+                                            "ERROR: " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                                 }
 
                             }

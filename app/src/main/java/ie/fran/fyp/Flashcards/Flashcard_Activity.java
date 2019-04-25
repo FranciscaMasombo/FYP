@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,10 +22,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-
 import ie.fran.fyp.R;
-import ie.fran.fyp.Start;
+import ie.fran.fyp.Settings.LoginActivity;
 
 public class Flashcard_Activity extends AppCompatActivity implements AddDeckDialog.ExampleDialogListener {
     Button adddeck;
@@ -139,7 +136,7 @@ public class Flashcard_Activity extends AppCompatActivity implements AddDeckDial
         if (fAuth.getCurrentUser() != null) {
             Log.i("MainActivity", "fAuth != null");
         } else {
-            Intent startIntent = new Intent(Flashcard_Activity.this, Start.class);
+            Intent startIntent = new Intent(Flashcard_Activity.this, LoginActivity.class);
             startActivity(startIntent);
             finish();
             Log.i("MainActivity", "fAuth == null");

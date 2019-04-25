@@ -7,6 +7,6 @@ public class ServiceStarterApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        startService(new Intent(this, AppBlockerService.class));
+        startService(new Intent(this, RedirectService.class));
     }
 }

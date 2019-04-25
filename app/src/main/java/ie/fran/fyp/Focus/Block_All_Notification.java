@@ -8,5 +8,5 @@ public class Block_All_Notification extends Service {
     @Override
     public IBinder onBind(Intent intent) {
         return null;
-    }
-}
+        }
+        }

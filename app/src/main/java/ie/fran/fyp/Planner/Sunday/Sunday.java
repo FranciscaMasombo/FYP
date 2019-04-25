@@ -26,7 +26,7 @@ import com.google.firebase.database.ValueEventListener;
 import ie.fran.fyp.Planner.Monday.MondayViewHolder;
 import ie.fran.fyp.Planner.Monday.Monday_Model;
 import ie.fran.fyp.R;
-import ie.fran.fyp.Start;
+import ie.fran.fyp.Settings.LoginActivity;
 
 
 public class Sunday extends AppCompatActivity {
@@ -134,7 +134,7 @@ public class Sunday extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             Log.i("MainActivity", "fAuth != null");
         } else {
-            Intent startIntent = new Intent(Sunday.this, Start.class);
+            Intent startIntent = new Intent(Sunday.this, LoginActivity.class);
             startActivity(startIntent);
             finish();
             Log.i("MainActivity", "fAuth == null");

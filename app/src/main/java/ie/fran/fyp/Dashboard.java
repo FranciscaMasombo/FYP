@@ -55,17 +55,19 @@ public class Dashboard extends AppCompatActivity {
 
 
         // for the dashbord
-        focus_on = findViewById(R.id.focus_on);
+
         note = findViewById(R.id.note);
         flashcard = findViewById(R.id.flashcard);
         planner = findViewById(R.id.planner);
         todo = findViewById(R.id.todo);
         scanner = findViewById(R.id.scanner);
 
+        focus_on = findViewById(R.id.focus_on);
         focus_on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, Focus_On_Activity.class);
+                Intent intent = new Intent(Dashboard.this,
+                        Focus_On_Activity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivity(intent);
             }

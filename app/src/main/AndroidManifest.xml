@@ -42,8 +42,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/login"/>
 
-
-
         <activity android:name=".Planner.Thursday.AddThursday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" >
@@ -82,8 +80,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
 
-
-
         <activity android:name=".Flashcards.FlashcardsMainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
@@ -110,7 +106,6 @@
             android:name=".Notes.NewNote"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
-        <activity android:name=".Start" />
         <activity android:name=".Users.login" />
         <activity android:name=".Users.SignUp" />
         <activity
@@ -138,7 +133,7 @@
             android:screenOrientation="portrait"/>
 
         <service
-            android:name=".Focus.services.AppBlockerService"
+            android:name=".Focus.services.RedirectService"
             android:screenOrientation="portrait"
             android:enabled="true"
             android:process=":AppBlockerService"

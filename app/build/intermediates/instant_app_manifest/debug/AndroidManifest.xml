@@ -156,7 +156,7 @@
             android:screenOrientation="portrait" />
 
         <service
-            android:name="ie.fran.fyp.Focus.services.AppBlockerService"
+            android:name="ie.fran.fyp.Focus.services.AppBlocker"
             android:enabled="true"
             android:process=":AppBlockerService"
             android:screenOrientation="portrait"

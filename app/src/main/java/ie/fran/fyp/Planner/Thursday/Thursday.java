@@ -27,9 +27,8 @@ import com.google.firebase.database.ValueEventListener;
 import ie.fran.fyp.Planner.Monday.MondayViewHolder;
 import ie.fran.fyp.Planner.Monday.Monday_Model;
 import ie.fran.fyp.Planner.Saturday.AddSaturday;
-import ie.fran.fyp.Planner.Saturday.Saturday;
 import ie.fran.fyp.R;
-import ie.fran.fyp.Start;
+import ie.fran.fyp.Settings.LoginActivity;
 
 public class Thursday extends AppCompatActivity {
     TextView titlepage,ttittle, ddec, lloc, ttime, ddate;
@@ -135,7 +134,7 @@ public class Thursday extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             Log.i("MainActivity", "fAuth != null");
         } else {
-            Intent startIntent = new Intent(Thursday.this, Start.class);
+            Intent startIntent = new Intent(Thursday.this, LoginActivity.class);
             startActivity(startIntent);
             finish();
             Log.i("MainActivity", "fAuth == null");

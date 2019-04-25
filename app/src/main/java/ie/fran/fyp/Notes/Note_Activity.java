@@ -27,7 +27,6 @@ import com.google.firebase.database.ValueEventListener;
 
 import ie.fran.fyp.R;
 import ie.fran.fyp.Settings.LoginActivity;
-import ie.fran.fyp.Start;
 
 public class Note_Activity extends AppCompatActivity {
 

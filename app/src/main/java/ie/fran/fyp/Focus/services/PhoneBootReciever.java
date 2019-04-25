@@ -10,7 +10,7 @@ public class PhoneBootReciever extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        Intent myIntent = new Intent(context,AppBlockerService.class);
+        Intent myIntent = new Intent(context, RedirectService.class);
         context.startService(myIntent);
         Log.i("Autostart", "started(-)  (-)");
 

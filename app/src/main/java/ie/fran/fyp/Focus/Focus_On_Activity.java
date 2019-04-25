@@ -15,8 +15,8 @@ import android.view.MenuItem;
 
 import com.github.javiersantos.bottomdialogs.BottomDialog;
 
-import ie.fran.fyp.Focus.Apps.AppsFragment;
-import ie.fran.fyp.Focus.Timer.TimerFragment;
+import ie.fran.fyp.Focus.Fragments.AppsFragment;
+import ie.fran.fyp.Focus.Fragments.TimerFragment;
 import ie.fran.fyp.R;
 
 public class Focus_On_Activity extends AppCompatActivity {
@@ -50,17 +50,15 @@ public class Focus_On_Activity extends AppCompatActivity {
             }
         });
     }
-
+//pop up box to access Permissions
     private void validateUsageAccess() {
         if (!isAccessGranted()) {
             new BottomDialog.Builder(this)
                     .setTitle("Permission!")
                     .setContent("We need application usage stats in order to limit access to the applications.")
                     .setPositiveText("OK")
-                    .setPositiveBackgroundColorResource(R.color.colorPrimary)
-                    //.setPositiveBackgroundColor(ContextCompat.getColor(this, R.color.colorPrimary)
+                    .setPositiveBackgroundColorResource(R.color.RED)
                     .setPositiveTextColorResource(android.R.color.white)
-                    //.setPositiveTextColor(ContextCompat.getColor(this, android.R.color.colorPrimary)
                     .onPositive(new BottomDialog.ButtonCallback() {
                         @Override
                         public void onClick(BottomDialog dialog) {

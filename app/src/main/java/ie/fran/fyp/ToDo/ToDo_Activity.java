@@ -24,10 +24,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-
 import ie.fran.fyp.R;
-import ie.fran.fyp.Start;
+import ie.fran.fyp.Settings.LoginActivity;
 
 public class ToDo_Activity extends AppCompatActivity {
 
@@ -91,7 +89,7 @@ public class ToDo_Activity extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             Log.i("MainActivity", "fAuth != null");
         } else {
-            Intent startIntent = new Intent(ToDo_Activity.this, Start.class);
+            Intent startIntent = new Intent(ToDo_Activity.this, LoginActivity.class);
             startActivity(startIntent);
             finish();
             Log.i("MainActivity", "fAuth == null");

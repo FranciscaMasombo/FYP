@@ -25,7 +25,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 import ie.fran.fyp.R;
-import ie.fran.fyp.Start;
+import ie.fran.fyp.Settings.LoginActivity;
 
 public class Monday extends AppCompatActivity {
     TextView titlepage,ttittle, ddec, lloc, ttime, ddate;
@@ -133,7 +133,7 @@ public class Monday extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             Log.i("MainActivity", "fAuth != null");
         } else {
-            Intent startIntent = new Intent(Monday.this, Start.class);
+            Intent startIntent = new Intent(Monday.this, LoginActivity.class);
             startActivity(startIntent);
             finish();
             Log.i("MainActivity", "fAuth == null");

@@ -1617,6 +1617,7 @@ id progressBar
 id progress_circle
 id progress_circular
 id progress_horizontal
+id progressbar
 id radio
 id recyclerAddedCards
 id recyclerAddedCaryds
