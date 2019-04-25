@@ -1,4 +1,7 @@
 package ie.fran.fyp.Settings;
+/**
+ * Francisca
+ */
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,7 +37,7 @@ public class SignupActivity extends AppCompatActivity {
 
         //Get Firebase auth instance
         auth = FirebaseAuth.getInstance();
-
+        //ref the layout
         btnSignIn = (Button) findViewById(R.id.sign_in_button);
         btnSignUp = (Button) findViewById(R.id.sign_up_button);
         inputEmail = (EditText) findViewById(R.id.email);
@@ -52,6 +55,7 @@ public class SignupActivity extends AppCompatActivity {
         btnSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //call method
                 finish();
             }
         });
@@ -59,7 +63,7 @@ public class SignupActivity extends AppCompatActivity {
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                //check if the field are empty
                 String email = inputEmail.getText().toString().trim();
                 String password = inputPassword.getText().toString().trim();
 
@@ -113,12 +117,15 @@ public class SignupActivity extends AppCompatActivity {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
                     if(task.isSuccessful()){
-                        Toast.makeText(SignupActivity.this, "Successfully Registered, Verification mail sent!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignupActivity.this,
+                                "Successfully Registered, Verification mail sent!",
+                                Toast.LENGTH_SHORT).show();
                         auth.signOut();
                         finish();
                         startActivity(new Intent(SignupActivity.this, LoginActivity.class));
                     }else{
-                        Toast.makeText(SignupActivity.this, "Verification mail has'nt been sent!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(SignupActivity.this,
+                                "Verification mail has'nt been sent!", Toast.LENGTH_SHORT).show();
                     }
                 }
             });

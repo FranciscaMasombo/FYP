@@ -48,14 +48,6 @@ public class NewTaskAct extends AppCompatActivity {
     EditText etitledoes, edescEdoes;
     Button btnSaveTask, remove;
     DatabaseReference reference;
-    Integer doesNum = new Random().nextInt();
-    String keydoes = Integer.toString(doesNum);
-    Calendar c = Calendar.getInstance();
-    DatePickerDialog dpd;
-    TimePickerDialog timePickerDialog;
-    int currentHour;
-    int currentMinute;
-    String amPm;
     private int mYear, mMonth, mDay, mHour, mMinute;
 
     @Override
@@ -87,7 +79,7 @@ public class NewTaskAct extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
         reference = FirebaseDatabase.getInstance().getReference()
-                .child("DoesApp")
+                .child("ToDoApp")
                 .child(fAuth.getCurrentUser().getUid());
 //        // insert data to database
 //        reference = FirebaseDatabase.getInstance().getReference()

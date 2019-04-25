@@ -50,7 +50,7 @@ public class ToDo_Activity extends AppCompatActivity {
         if (fAuth.getCurrentUser() != null) {
             reference = FirebaseDatabase
                     .getInstance().getReference()
-                    .child("DoesApp")
+                    .child("ToDoApp")
                     .child(fAuth.getCurrentUser().getUid());
         }
 
@@ -65,7 +65,7 @@ public class ToDo_Activity extends AppCompatActivity {
         // customize font
         titlepage.setTypeface(MMedium);
         subtitlepage.setTypeface(MLight);
-       // endpage.setTypeface(MLight);
+
 
         btnAddNew.setTypeface(MLight);
 

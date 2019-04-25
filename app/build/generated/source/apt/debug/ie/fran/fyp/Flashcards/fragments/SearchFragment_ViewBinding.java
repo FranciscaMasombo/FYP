@@ -15,7 +15,7 @@ import java.lang.Override;
 public class SearchFragment_ViewBinding implements Unbinder {
   private SearchFragment target;
 
-  private View view7f080049;
+  private View view7f08004a;
 
   @UiThread
   public SearchFragment_ViewBinding(final SearchFragment target, View source) {
@@ -24,7 +24,7 @@ public class SearchFragment_ViewBinding implements Unbinder {
     View view;
     target.etSearch = Utils.findRequiredViewAsType(source, R.id.etSearch, "field 'etSearch'", EditText.class);
     view = Utils.findRequiredView(source, R.id.btnSearch, "method 'search'");
-    view7f080049 = view;
+    view7f08004a = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -42,7 +42,7 @@ public class SearchFragment_ViewBinding implements Unbinder {
 
     target.etSearch = null;
 
-    view7f080049.setOnClickListener(null);
-    view7f080049 = null;
+    view7f08004a.setOnClickListener(null);
+    view7f08004a = null;
   }
 }
