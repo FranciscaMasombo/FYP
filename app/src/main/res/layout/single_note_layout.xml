@@ -48,7 +48,7 @@
                 android:layout_width="156dp"
                 android:layout_height="wrap_content"
                 android:maxLines="5"
-                android:text="TextView" />
+                android:text="note details......................." />
 
 
         </LinearLayout>

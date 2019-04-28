@@ -17,9 +17,9 @@ import java.lang.Override;
 public class AddDeckActivity_ViewBinding implements Unbinder {
   private AddDeckActivity target;
 
-  private View view7f08003f;
+  private View view7f080040;
 
-  private View view7f08004b;
+  private View view7f08004c;
 
   @UiThread
   public AddDeckActivity_ViewBinding(AddDeckActivity target) {
@@ -35,7 +35,7 @@ public class AddDeckActivity_ViewBinding implements Unbinder {
     target.recyclerAddedCards = Utils.findRequiredViewAsType(source, R.id.recyclerAddedCards, "field 'recyclerAddedCards'", RecyclerView.class);
     target.switchPriv = Utils.findRequiredViewAsType(source, R.id.switchPriv, "field 'switchPriv'", CompoundButton.class);
     view = Utils.findRequiredView(source, R.id.btnAddCard, "method 'addCardClick'");
-    view7f08003f = view;
+    view7f080040 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -43,7 +43,7 @@ public class AddDeckActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.btnSend, "method 'sendClick'");
-    view7f08004b = view;
+    view7f08004c = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,9 +63,9 @@ public class AddDeckActivity_ViewBinding implements Unbinder {
     target.recyclerAddedCards = null;
     target.switchPriv = null;
 
-    view7f08003f.setOnClickListener(null);
-    view7f08003f = null;
-    view7f08004b.setOnClickListener(null);
-    view7f08004b = null;
+    view7f080040.setOnClickListener(null);
+    view7f080040 = null;
+    view7f08004c.setOnClickListener(null);
+    view7f08004c = null;
   }
 }

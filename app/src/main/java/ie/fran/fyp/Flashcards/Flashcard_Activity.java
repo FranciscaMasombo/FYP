@@ -22,6 +22,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import ie.fran.fyp.Flashcards.CreateCards.Cards_Display;
+import ie.fran.fyp.Flashcards.CreateDeck.AddDeckDialog;
+import ie.fran.fyp.Flashcards.CreateDeck.Deck_Model;
 import ie.fran.fyp.R;
 import ie.fran.fyp.Settings.LoginActivity;
 

@@ -1345,6 +1345,7 @@ id actions
 id activity_add_deck
 id activity_chooser_view_content
 id add
+id add_image_capture_camera
 id add_new_folder
 id adddate
 id adddeck
@@ -1405,6 +1406,7 @@ id button_next
 id button_resend_email
 id button_sign_in
 id cancel_action
+id capture
 id cardButtonLayout
 id card_back
 id card_front
@@ -1517,6 +1519,7 @@ id image
 id imageView
 id imageView2
 id imageView3
+id image_show_xml
 id image_view_upload
 id imgView7
 id imgViewNote
@@ -1551,7 +1554,6 @@ id linearLayout7
 id linearLayout8
 id listMode
 id list_item
-id ll
 id loc
 id location
 id loct
@@ -1575,8 +1577,10 @@ id mtrl_internal_children_alpha_tag
 id multiply
 id name
 id name_layout
+id nav_add
 id nav_apps
 id nav_timer
+id nav_view
 id navigation_header_container
 id never
 id newPassword
@@ -1610,6 +1614,7 @@ id percent
 id phone_button
 id phone_layout
 id phone_number
+id picture
 id pin
 id planner
 id popupbtn
@@ -1636,7 +1641,9 @@ id right_side
 id root
 id saturday
 id save
+id save_cloud
 id save_image_matrix
+id save_local
 id save_non_transition_alpha
 id save_scale_type
 id scanner
@@ -1690,8 +1697,6 @@ id src_over
 id standard
 id start
 id startButton
-id start_log_btn
-id start_reg_btn
 id status_bar_latest_event_content
 id stopButton
 id stretch
@@ -1846,6 +1851,7 @@ layout activity_add_task
 layout activity_add_task_tuesday
 layout activity_add_thursday
 layout activity_add_wednesday
+layout activity_capture_picture
 layout activity_cards__display
 layout activity_create_flashcards
 layout activity_flashcard_
@@ -1857,6 +1863,7 @@ layout activity_main
 layout activity_monday
 layout activity_new_task
 layout activity_note_
+layout activity_photo
 layout activity_planner
 layout activity_reset_password
 layout activity_saturday
@@ -1971,7 +1978,6 @@ layout select_dialog_singlechoice_material
 layout sign_up
 layout single_card_back_and_front
 layout single_note_layout
-layout start
 layout support_simple_spinner_dropdown_item
 layout to_do_list
 layout todo_list_row
@@ -1980,6 +1986,7 @@ menu add_folder
 menu add_note_menu
 menu add_task_menu
 menu bottom_navigation
+menu bottom_navigation_scanner
 menu delete_note_menu
 menu flashcard_activity_main_drawer
 menu main
@@ -2889,3 +2896,4 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml file_list

@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
-import ie.fran.fyp.Flashcards.Card.AddCardDialog;
+import ie.fran.fyp.Flashcards.CreateCards.AddCardDialog;
 import ie.fran.fyp.R;
 
 public class CreateFlashcards extends AppCompatActivity implements AddCardDialog.AddCardDialogListener{

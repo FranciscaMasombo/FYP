@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ie.fran.fyp"
     android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -10,8 +12,19 @@
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name=".Focus.services.ServiceStarterApplication"
@@ -23,8 +36,11 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
-
-        <activity android:name=".Settings.LoginActivity"
+        <activity android:name=".Scanner.Scanner_Activity"></activity>
+        <activity android:name=".Scanner.CapturePictureActivity" />
+        <activity android:name=".Scanner.photo" />
+        <activity
+            android:name=".Settings.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -33,63 +49,76 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Settings.ResetPasswordActivity"
+        <activity
+            android:name=".Settings.ResetPasswordActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/login"/>
-        <activity android:name=".Settings.Settings_Activity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Settings.SignupActivity"
+            android:theme="@style/login" />
+        <activity
+            android:name=".Settings.Settings_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings.SignupActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/login"/>
-
-        <activity android:name=".Planner.Thursday.AddThursday"
-            android:screenOrientation="portrait"
-            android:theme="@style/ThemePlanner" >
-        </activity>
-        <activity android:name=".Planner.Sunday.AddSunday"
-            android:screenOrientation="portrait"
-            android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Saturday.AddSaturday"
+            android:theme="@style/login" />
+        <activity
+            android:name=".Planner.Thursday.AddThursday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Friday.AddFriday"
+        <activity
+            android:name=".Planner.Sunday.AddSunday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Wednesday.AddWednesday"
+        <activity
+            android:name=".Planner.Saturday.AddSaturday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Tuesday.AddTaskTuesday"
+        <activity
+            android:name=".Planner.Friday.AddFriday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Sunday.Sunday"
+        <activity
+            android:name=".Planner.Wednesday.AddWednesday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Saturday.Saturday"
+        <activity
+            android:name=".Planner.Tuesday.AddTaskTuesday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Friday.Friday"
+        <activity
+            android:name=".Planner.Sunday.Sunday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Thursday.Thursday"
+        <activity
+            android:name=".Planner.Saturday.Saturday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Wednesday.Wednesday"
+        <activity
+            android:name=".Planner.Friday.Friday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-        <activity android:name=".Planner.Tuesday.Tuesday"
+        <activity
+            android:name=".Planner.Thursday.Thursday"
             android:screenOrientation="portrait"
             android:theme="@style/ThemePlanner" />
-
-        <activity android:name=".Flashcards.FlashcardsMainActivity"
+        <activity
+            android:name=".Planner.Wednesday.Wednesday"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name=".Planner.Tuesday.Tuesday"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemePlanner" />
+        <activity
+            android:name=".Flashcards.FlashcardsMainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
-        <activity android:name=".Flashcards.AddDeckActivity"
+        <activity
+            android:name=".Flashcards.AddDeckActivity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeFlashCards" />
-        <activity android:name=".Flashcards.ViewCardsActivity"
+        <activity
+            android:name=".Flashcards.ViewCardsActivity"
             android:theme="@style/ThemeFlashCards" />
-
-
         <activity
             android:name=".Planner.Monday.AddTask"
             android:screenOrientation="portrait"
@@ -128,18 +157,19 @@
             android:name=".Focus.Focus_On_Activity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeFocusOn" />
-
-        <activity android:name=".Focus.services.Redirect"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Focus.services.Redirect"
+            android:screenOrientation="portrait" />
 
         <service
             android:name=".Focus.services.RedirectService"
-            android:screenOrientation="portrait"
             android:enabled="true"
             android:process=":AppBlockerService"
+            android:screenOrientation="portrait"
             android:stopWithTask="false" />
 
-        <receiver android:name=".Focus.services.PhoneBootReciever"
+        <receiver
+            android:name=".Focus.services.PhoneBootReciever"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -147,11 +177,10 @@
         </receiver>
 
         <activity
-            android:screenOrientation="portrait"
             android:name=".Dashboard"
             android:label="StudyAid"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" />
 
@@ -173,6 +202,17 @@
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="ie.fran.fyp.android.fileprovider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_list" />
+        </provider>
     </application>
 
 </manifest>

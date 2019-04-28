@@ -22,6 +22,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import ie.fran.fyp.Flashcards.CreateCards.AddedCardsAdapter;
+import ie.fran.fyp.Flashcards.CreateDeck.Deck;
 import ie.fran.fyp.R;
 
 

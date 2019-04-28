@@ -47,9 +47,8 @@ public class Note_Activity extends AppCompatActivity {
 
         mNotesList.setHasFixedSize(true);
         mNotesList.setLayoutManager(gridLayoutManager);
-        //gridLayoutManager.setReverseLayout(true);
-        //gridLayoutManager.setStackFromEnd(true);
-        mNotesList.addItemDecoration(new GridSpacingItemDecoration(2, dpToPx(10), true));
+
+        mNotesList.addItemDecoration(new GridSpacing(2, dpToPx(10), true));
 
         fAuth = FirebaseAuth.getInstance();
         if (fAuth.getCurrentUser() != null) {
@@ -95,15 +94,8 @@ public class Note_Activity extends AppCompatActivity {
                         if (dataSnapshot.hasChild("title")) {
                             String title = dataSnapshot.child("title").getValue().toString();
                             String content = dataSnapshot.child("content").getValue().toString();
-                            //String timestamp = dataSnapshot.child("timestamp").getValue().toString();
-
                             viewHolder.setNoteTitle(title);
                             viewHolder.setNoteContent(content);
-                            //viewHolder.setNoteTime(timestamp);
-
-                            // GetTimeAgo getTimeAgo = new GetTimeAgo();
-                            // viewHolder.setNoteTime(getTimeAgo.getTimeAgo(Long.parseLong(timestamp), getApplicationContext()));
-
                             viewHolder.noteCard.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {

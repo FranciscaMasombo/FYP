@@ -12,6 +12,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ie.fran.fyp.Flashcards.FlipAnimation.FlipLayout;
+import ie.fran.fyp.Flashcards.CreateDeck.Deck;
 import ie.fran.fyp.R;
 
 public class ViewCardsActivity extends AppCompatActivity {
@@ -50,7 +51,7 @@ public class ViewCardsActivity extends AppCompatActivity {
             showCompleteMessage();
         }
         else {
-            setupFlipViews();
+            setupCardviews();
             updateCardInfo();
 
             flipLayout.setOnFlipListener(new FlipLayout.OnFlipListener() {
@@ -68,7 +69,7 @@ public class ViewCardsActivity extends AppCompatActivity {
         }
     }
 
-    private void setupFlipViews() {
+    private void setupCardviews() {
         setContentView(R.layout.flashcard_activity_view_cards);
         ButterKnife.bind(this);
         tvDeckHeader.setText(deck.getTitle()+" by "+deck.getAuthor());
@@ -79,16 +80,16 @@ public class ViewCardsActivity extends AppCompatActivity {
         score++;
         ViewCardsData.getInstance().incrementScore();
         flipLayout.reset();
-        nextItem();
+        nextCard();
     }
 
     @OnClick(R.id.fabIncorrect)
     void Incorrect(){
         flipLayout.reset();
-        nextItem();
+        nextCard();
     }
 
-    public void nextItem() {
+    public void nextCard() {
         if(listPos == deck.getFronts().size()-1) {
             ViewCardsData.getInstance().setComplete(true);
             ViewCardsData.getInstance().setScore(score);

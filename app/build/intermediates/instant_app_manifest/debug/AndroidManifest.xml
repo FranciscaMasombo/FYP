@@ -10,13 +10,25 @@
         android:minSdkVersion="23"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
     <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -31,6 +43,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="ie.fran.fyp.Scanner.Scanner_Activity" />
+        <activity android:name="ie.fran.fyp.Scanner.CapturePictureActivity" />
+        <activity android:name="ie.fran.fyp.Scanner.photo" />
         <activity
             android:name="ie.fran.fyp.Settings.LoginActivity"
             android:screenOrientation="portrait"
@@ -55,8 +70,7 @@
         <activity
             android:name="ie.fran.fyp.Planner.Thursday.AddThursday"
             android:screenOrientation="portrait"
-            android:theme="@style/ThemePlanner" >
-        </activity>
+            android:theme="@style/ThemePlanner" />
         <activity
             android:name="ie.fran.fyp.Planner.Sunday.AddSunday"
             android:screenOrientation="portrait"
@@ -128,7 +142,6 @@
             android:name="ie.fran.fyp.Notes.NewNote"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
-        <activity android:name="ie.fran.fyp.Start" />
         <activity android:name="ie.fran.fyp.Users.login" />
         <activity android:name="ie.fran.fyp.Users.SignUp" />
         <activity
@@ -156,7 +169,7 @@
             android:screenOrientation="portrait" />
 
         <service
-            android:name="ie.fran.fyp.Focus.services.AppBlocker"
+            android:name="ie.fran.fyp.Focus.services.RedirectService"
             android:enabled="true"
             android:process=":AppBlockerService"
             android:screenOrientation="portrait"
@@ -174,8 +187,7 @@
             android:name="ie.fran.fyp.Dashboard"
             android:label="StudyAid"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -215,6 +227,17 @@
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="ie.fran.fyp.android.fileprovider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_list" />
+        </provider>
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -390,6 +413,10 @@
             android:authorities="ie.fran.fyp.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="ie.fran.fyp.com.squareup.picasso"
+            android:exported="false" />
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="ie.fran.fyp.lifecycle-trojan"
