@@ -151,10 +151,6 @@
             android:screenOrientation="portrait"
             android:theme="@style/ThemeToDo" />
         <activity
-            android:name=".Scanner_Activity"
-            android:screenOrientation="portrait"
-            android:theme="@style/ThemeScanner" />
-        <activity
             android:name=".Notes.Note_Activity"
             android:screenOrientation="portrait"
             android:theme="@style/ThemeNote" />
