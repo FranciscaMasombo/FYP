@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://fyp-2019.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">406123930534</string>
+    <string name="google_api_key" translatable="false">AIzaSyBMnrcz-Zfi6dFMd0ztUa7_7m-9u5roQx4</string>
+    <string name="google_app_id" translatable="false">1:406123930534:android:0b26b94b268a6174</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBMnrcz-Zfi6dFMd0ztUa7_7m-9u5roQx4</string>
+    <string name="google_storage_bucket" translatable="false">fyp-2019.appspot.com</string>
+    <string name="project_id" translatable="false">fyp-2019</string>
+</resources>
