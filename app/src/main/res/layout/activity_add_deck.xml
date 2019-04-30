@@ -24,7 +24,9 @@
                 android:id="@+id/etTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="itle" />
+                android:hint="Title"
+                android:inputType="text"
+                android:textSize="24sp" />
         </android.support.design.widget.TextInputLayout>
 
         <Switch

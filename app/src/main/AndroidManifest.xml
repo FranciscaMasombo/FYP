@@ -36,9 +36,14 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".Scanner.Scanner_Activity"></activity>
-        <activity android:name=".Scanner.CapturePictureActivity" />
-        <activity android:name=".Scanner.photo" />
+
+        <activity
+            android:name=".Scanner.Scanner_Activity"
+            android:theme="@style/ThemeScanner"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Scanner.ViewImageActivity"
+            android:theme="@style/ThemeScanner"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Settings.LoginActivity"
             android:screenOrientation="portrait"

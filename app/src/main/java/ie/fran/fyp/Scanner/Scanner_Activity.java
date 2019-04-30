@@ -17,7 +17,7 @@ public class Scanner_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_scanner_);
         BottomNavigationView navigationView = findViewById(R.id.bottom_navigation);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                new Gallarry()).commit();
+                new Scan_New_doc()).commit();
         navigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -25,10 +25,10 @@ public class Scanner_Activity extends AppCompatActivity {
 
                 switch (item.getItemId()){
                     case R.id.nav_add:
-                        selectedFragment = new Add_New();
+                        selectedFragment = new Scan_New_doc();
                         break;
                     case R.id.nav_view:
-                        selectedFragment = new Gallarry();
+                        selectedFragment = new ViewAll_docs();
                         break;
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,

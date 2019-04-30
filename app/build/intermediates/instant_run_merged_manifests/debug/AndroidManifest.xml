@@ -42,9 +42,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ie.fran.fyp.Scanner.Scanner_Activity" />
-        <activity android:name="ie.fran.fyp.Scanner.CapturePictureActivity" />
-        <activity android:name="ie.fran.fyp.Scanner.photo" />
+        <activity
+            android:name="ie.fran.fyp.Scanner.Scanner_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeScanner" />
+        <activity
+            android:name="ie.fran.fyp.Scanner.ViewImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeScanner" />
         <activity
             android:name="ie.fran.fyp.Settings.LoginActivity"
             android:screenOrientation="portrait"
